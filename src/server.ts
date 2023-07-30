@@ -1,13 +1,15 @@
-import express from "express";
+import express from 'express';
+
+let products = require('./products.json')
 
 const PORT = 5000;
 
-const App = express();
+const app = express();
 
-App.use((request, response) => {
-  response.send('App answer')
+app.get('/products', (request, response) => {
+  response.send(products);
 })
 
-App.listen(PORT, () => {
+app.listen(PORT, () => {
   console.log(`API is ready on http://localhost:${PORT}`);
   })
