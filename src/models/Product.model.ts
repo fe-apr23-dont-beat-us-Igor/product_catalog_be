@@ -18,9 +18,14 @@ export class Product extends Model {
   capacity: string;
 
   @Column({
-    type: DataType.NUMBER
+    type: DataType.STRING
   })
-  priceRegular: number;
+  priceRegular: string;
+
+  @Column({
+    type: DataType.STRING
+  })
+  priceDiscount: string;
 
   @Column({
     type: DataType.STRING
