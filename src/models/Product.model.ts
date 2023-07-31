@@ -1,4 +1,4 @@
-import { Column, Table, AllowNull, Unique, Model, DataType } from "sequelize-typescript";
+import { Column, Table, AllowNull, Unique, Model, DataType } from 'sequelize-typescript';
 
 @Table({
   tableName: 'products'
