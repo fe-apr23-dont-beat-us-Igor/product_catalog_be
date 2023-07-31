@@ -1,5 +1,6 @@
 import express from 'express';
 import { initDB } from './initDB';
+const { QueryTypes } = require('sequelize');
 
 import sequelize from 'sequelize-typescript';
 import { Product } from './models/Product.model';
@@ -20,7 +21,8 @@ const serverInit = async () => {
 
   const res = await sequelize.authenticate();
 
-  const products = await sequelize.query("SELECT * FROM products");
+  const { QueryTypes } = require('sequelize');
+  const products = await sequelize.query("SELECT * FROM products", { type: QueryTypes.SELECT });
   
   app.get('/products', (request, response) => {
     response.send(products);
