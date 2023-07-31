@@ -1,6 +1,8 @@
 import express from 'express';
 import { initDB } from './initDB';
 
+import sequelize from 'sequelize-typescript';
+
 let cors = require('cors');
 
 // postgres://products_db_74rl_user:O4Bzs9v7kCIbO7uiiSJhcXIpLhC8ivWs@dpg-cj3lk8tiuie55plnr410-a.frankfurt-postgres.render.com/products_db_74rl
