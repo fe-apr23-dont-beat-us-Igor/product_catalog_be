@@ -1,7 +1,9 @@
 import { Column, Table, AllowNull, Unique, Model, DataType } from 'sequelize-typescript';
 
 @Table({
-  tableName: 'products'
+  tableName: 'products',
+  createdAt: 'false',
+  updatedAt: 'false',
 })
 
 export class Product extends Model {
