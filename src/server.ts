@@ -1,21 +1,50 @@
 import express from 'express';
+import { initDB } from './initDB';
 
 let cors = require('cors');
 
 // postgres://products_db_74rl_user:O4Bzs9v7kCIbO7uiiSJhcXIpLhC8ivWs@dpg-cj3lk8tiuie55plnr410-a.frankfurt-postgres.render.com/products_db_74rl
 
-let products = require('./products.json');
+const serverInit = async () => {
+  let products = require('./products.json');
 
-const PORT = 5000;
+  products = products.map((product: { name: any; capacity: any; priceRegular: any; priceDiscount: any; images: any; screen: any; ram: any; }) => {
+    const {
+      name,
+      capacity,
+      priceRegular,
+      priceDiscount,
+      screen,
+      ram,
+    } = product;
+    
+    return {
+      name,
+      capacity,
+      priceRegular,
+      priceDiscount,
+      screen,
+      ram,
+    }
+  });
 
-const app = express();
+  const PORT = 5000;
 
-app.use(cors());
+  const app = express();
 
-app.get('/products', (request, response) => {
-  response.send(products);
-})
+  app.use(cors());
 
-app.listen(PORT, () => {
-  console.log(`API is ready on http://localhost:${PORT}`);
-  })
+  const sequelize = initDB();
+
+  const res = await sequelize.authenticate();
+
+  app.get('/products', (request, response) => {
+    response.send(products);
+  });
+
+  app.listen(PORT, () => {
+    console.log(`API is ready on http://localhost:${PORT}`);
+  });
+}
+
+serverInit();
