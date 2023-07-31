@@ -8,7 +8,6 @@ import { Column, Table, AllowNull, Unique, Model, DataType } from 'sequelize-typ
 
 export class Product extends Model {
   @AllowNull(false)
-  @Unique
   @Column({
     type: DataType.STRING
   })

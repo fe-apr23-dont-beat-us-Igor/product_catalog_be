@@ -3,6 +3,7 @@ import { initDB } from './initDB';
 
 import sequelize from 'sequelize-typescript';
 import { Product } from './models/Product.model';
+import { models } from './models';
 
 let cors = require('cors');
 
@@ -17,10 +18,10 @@ const serverInit = async () => {
 
   const sequelize = initDB();
 
-  const products = await Product.findAll();
-
   const res = await sequelize.authenticate();
 
+  const products = await sequelize.query("SELECT * FROM products");
+  
   app.get('/products', (request, response) => {
     response.send(products);
   });
