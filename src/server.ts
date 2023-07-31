@@ -10,6 +10,8 @@ let cors = require('cors');
 
 const serverInit = async () => {
 
+  let products = require('./products.json');
+
   const PORT = 5000;
 
   const app = express();
@@ -19,8 +21,6 @@ const serverInit = async () => {
   const sequelize = initDB();
 
   const res = await sequelize.authenticate();
-
-  let products = await Product.findAll();
 
   app.get('/products', (request, response) => {
     response.send(products);
