@@ -20,7 +20,7 @@ const serverInit = async () => {
 
   const res = await sequelize.authenticate();
 
-  let products = Product.findAll();
+  let products = await Product.findAll();
 
   app.get('/products', (request, response) => {
     response.send(products);
