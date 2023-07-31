@@ -20,7 +20,7 @@ const serverInit = async () => {
 
   const res = await sequelize.authenticate();
 
-  const products = await Product.findAll();
+  const products = await sequelize.query("SELECT * FROM products");
   
   app.get('/products', (request, response) => {
     response.send(products);

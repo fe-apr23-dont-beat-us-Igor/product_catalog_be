@@ -34,7 +34,7 @@ module.exports = {
       ram: {
         type: Sequelize.STRING,
         allowNull: false,
-      },
+      }
     });
   },
 
