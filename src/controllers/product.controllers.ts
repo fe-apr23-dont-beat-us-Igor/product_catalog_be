@@ -5,7 +5,7 @@ import { Response, Request } from 'express';
 export const getAllProductsController = async (req: Request, res: Response) => {
   const productService = new ProductService()
 
-  const products = await productService.getAll();
+  const products = await productService.getAll('phones');
 
   let page = Number(req.query.page);
   let count = Number(req.query.count);
@@ -21,7 +21,7 @@ export const getAllProductsController = async (req: Request, res: Response) => {
   let paginatedProducts = sliceIntoChunks(products, count);
 
   let result = {
-    paginatedProducts,
+    paginatedProducts: paginatedProducts[page - 1],
     itemsCount: products.length,
   }
 
