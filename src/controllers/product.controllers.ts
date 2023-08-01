@@ -14,6 +14,10 @@ export const getAllProductsController = async (req: Request, res: Response) => {
     page = 1;
   }
 
+  if (!count) {
+    count = 16;
+  }
+
   let paginatedProducts = sliceIntoChunks(products, count);
 
   res.send(paginatedProducts[page - 1]);

@@ -17,8 +17,20 @@ export class Product extends Model {
   @Column({
     type: DataType.STRING,
   })
-  name: string;
+  itemId: string;
 
+  @AllowNull(false)
+  @Column({
+    type: DataType.STRING,
+  })
+  category: string;
+
+  @AllowNull(false)
+  @Column({
+    type: DataType.STRING,
+  })
+  name: string;
+  
   @AllowNull(false)
   @Column({
     type: DataType.STRING,
@@ -27,15 +39,21 @@ export class Product extends Model {
 
   @AllowNull(false)
   @Column({
-    type: DataType.STRING,
+    type: DataType.INTEGER,
   })
-  priceRegular: string;
+  fullPrice: number;
 
   @AllowNull(false)
   @Column({
     type: DataType.STRING,
   })
-  priceDiscount: string;
+  color: string;
+
+  @AllowNull(false)
+  @Column({
+    type: DataType.INTEGER,
+  })
+  price: number;
 
   @AllowNull(false)
   @Column({
@@ -48,4 +66,16 @@ export class Product extends Model {
     type: DataType.STRING,
   })
   ram: string;
+
+  @AllowNull(false)
+  @Column({
+    type: DataType.INTEGER,
+  })
+  year: number;
+
+  @AllowNull(false)
+  @Column({
+    type: DataType.STRING,
+  })
+  image: string;
 }
