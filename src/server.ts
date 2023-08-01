@@ -10,6 +10,15 @@ let cors = require('cors');
 
 // postgres://products_db_74rl_user:O4Bzs9v7kCIbO7uiiSJhcXIpLhC8ivWs@dpg-cj3lk8tiuie55plnr410-a.frankfurt-postgres.render.com/products_db_74rl
 
+function sliceIntoChunks(arr: any, chunkSize: number) {
+  const res = [];
+  for (let i = 0; i < arr.length; i += chunkSize) {
+      const chunk = arr.slice(i, i + chunkSize);
+      res.push(chunk);
+  }
+  return res;
+}
+
 const serverInit = async () => {
   const PORT = 5000;
 
@@ -34,19 +43,7 @@ const serverInit = async () => {
     
     let i = 0;
 
-    let paginatedProducts = [];
-
-    while (i <= products.length) {
-      let arr = [];
-      for (let k = 0; k <= itemsOnPage; k++) {
-        if (i === products.length) {
-          break;
-        }
-        arr.push(i);
-        i++;
-      }
-      paginatedProducts.push(arr);
-    }
+    let paginatedProducts = sliceIntoChunks(products, itemsOnPage);
     
     response.send(paginatedProducts[page - 1]);
   });
