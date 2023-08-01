@@ -4,4 +4,8 @@ export class ProductService {
   async getAll() {
     return await Product.findAll();
   }
+
+  async findById(id: number) {
+    return await Product.findByPk(id);
+  }
 }
