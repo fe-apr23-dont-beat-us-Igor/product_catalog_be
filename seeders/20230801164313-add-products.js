@@ -4,21 +4,32 @@ let products = require('../src/products.json');
 
 products = products.map((product) => {
   const {
+    itemId,
+    category,
     name,
     capacity,
-    priceRegular,
-    priceDiscount,
+    fullPrice,
+    color,
+    price,
     screen,
     ram,
+    year,
   } = product;
 
+  let imageId = 1;
+
   return {
+    itemId,
+    category,
     name,
     capacity,
-    priceRegular,
-    priceDiscount,
+    fullPrice,
+    color,
+    price,
     screen,
     ram,
+    year,
+    image_id: imageId,
   }
 });
 
@@ -35,3 +46,4 @@ module.exports = {
   async down (queryInterface, Sequelize) {
   }
 };
+
