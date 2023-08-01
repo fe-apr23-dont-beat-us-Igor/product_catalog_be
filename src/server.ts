@@ -1,24 +1,16 @@
 import express from 'express';
 import { initDB } from './initDB';
+import { sliceIntoChunks } from './helpers/sliceIntoChunks';
 const { QueryTypes } = require('sequelize');
 
 import sequelize from 'sequelize-typescript';
 import { Product } from './models/Product.model';
 import { models } from './models';
+import { ProductService } from './services/product.service';
 
 let cors = require('cors');
 
 // postgres://products_db_74rl_user:O4Bzs9v7kCIbO7uiiSJhcXIpLhC8ivWs@dpg-cj3lk8tiuie55plnr410-a.frankfurt-postgres.render.com/products_db_74rl
-
-function sliceIntoChunks(arr: any, chunkSize: any) {
-  const res = [];
-  let a = Number(chunkSize);
-  for (let i = 0; i < arr.length; i += a) {
-      const chunk = arr.slice(i, i + a);
-      res.push(chunk);
-  }
-  return res;
-}
 
 const serverInit = async () => {
   const PORT = 5000;
@@ -35,7 +27,9 @@ const serverInit = async () => {
   
 
   app.post('/products' , async (request, response) => {
-    const products = await Product.findAll();
+    const productService = new ProductService();
+    
+    const products = productService.getAll();
 
     const { page, itemsOnPage } = request.body;
 
