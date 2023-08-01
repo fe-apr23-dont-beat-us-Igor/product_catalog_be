@@ -40,7 +40,7 @@ const serverInit = async () => {
 
     let paginatedProducts = sliceIntoChunks(products, itemsOnPage);
     
-    response.send(request.body);
+    response.send(paginatedProducts);
   });
 
   app.listen(PORT, () => {
