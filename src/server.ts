@@ -26,26 +26,21 @@ const serverInit = async () => {
 
   app.use(cors());
 
+  app.use(express.json())
+
   const sequelize = initDB();
 
   const res = await sequelize.authenticate();
   
 
-  app.post('/products',express.json(), async (request, response) => {
+  app.post('/products' , async (request, response) => {
     const products = await Product.findAll();
 
     const { page, itemsOnPage } = request.body;
 
-    if (!page || !itemsOnPage) {
-      response.send(products);
-      return;
-    }
-    
-    let i = 0;
-
     let paginatedProducts = sliceIntoChunks(products, itemsOnPage);
     
-    response.send(paginatedProducts[page - 1]);
+    response.send(request.body);
   });
 
   app.listen(PORT, () => {
