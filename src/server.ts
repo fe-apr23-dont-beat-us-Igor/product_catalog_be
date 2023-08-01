@@ -3,7 +3,7 @@ import { initDB } from './initDB';
 import { sliceIntoChunks } from './helpers/sliceIntoChunks';
 
 import { ProductService } from './services/product.service';
-import { getAllProductsController } from './controllers/product.controllers';
+import { getAllProductsController, getProductById } from './controllers/product.controllers';
 
 let cors = require('cors');
 
@@ -24,6 +24,8 @@ const serverInit = async () => {
   
 
   app.get('/products' , getAllProductsController);
+
+  app.get('/products/:id' , getProductById);
 
   app.listen(PORT, () => {
     console.log(`API is ready on http://localhost:${PORT}`);

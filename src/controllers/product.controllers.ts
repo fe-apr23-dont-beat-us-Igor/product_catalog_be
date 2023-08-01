@@ -18,3 +18,13 @@ export const getAllProductsController = async (req: Request, res: Response) => {
 
   res.send(paginatedProducts[page - 1]);
 }
+
+export const getProductById = async (req: Request, res: Response) => {
+  const productService = new ProductService();
+  
+  const { id } = req.params;
+  
+  const product = await productService.getById(Number(id));
+
+  res.send(product);
+} 

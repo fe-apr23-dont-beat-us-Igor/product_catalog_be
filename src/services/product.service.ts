@@ -5,7 +5,7 @@ export class ProductService {
     return await Product.findAll();
   }
 
-  async findById(id: number) {
+  async getById(id: number) {
     return await Product.findByPk(id);
   }
 }
