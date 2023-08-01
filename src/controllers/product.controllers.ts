@@ -20,7 +20,12 @@ export const getAllProductsController = async (req: Request, res: Response) => {
 
   let paginatedProducts = sliceIntoChunks(products, count);
 
-  res.send(paginatedProducts[page - 1]);
+  let result = {
+    paginatedProducts,
+    itemsCount: products.length,
+  }
+
+  res.send(result);
 }
 
 export const getProductById = async (req: Request, res: Response) => {
