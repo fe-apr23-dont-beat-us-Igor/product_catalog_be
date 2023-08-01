@@ -5,7 +5,11 @@ import {
   Unique,
   Model,
   DataType,
+  ForeignKey,
+  BelongsTo,
 } from 'sequelize-typescript';
+import { Image } from './Image.model';
+
 
 @Table({
   tableName: 'products',
@@ -74,8 +78,13 @@ export class Product extends Model {
   year: number;
 
   @AllowNull(false)
+  @ForeignKey(() => Image)
   @Column({
-    type: DataType.STRING,
+    type: DataType.INTEGER,
+    field: 'image_id',
   })
-  image: string;
+  image_id: number;
+
+  @BelongsTo(() => Image)
+  image: Image | null;
 }
