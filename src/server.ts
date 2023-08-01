@@ -20,17 +20,35 @@ const serverInit = async () => {
   const sequelize = initDB();
 
   const res = await sequelize.authenticate();
-
-  const { QueryTypes } = require('sequelize');
-  const products = await sequelize.query('SELECT * FROM products', {
-    type: QueryTypes.SELECT,
-  });
-
-  const products = await Product.findAll();
   
 
-  app.get('/products', (request, response) => {
-    response.send(products);
+  app.get('/products',express.json(), async (request, response) => {
+    const products = await Product.findAll();
+
+    const { page, itemsOnPage } = request.body;
+
+    if (!page || !itemsOnPage) {
+      response.send(products);
+      return;
+    }
+    
+    let i = 0;
+
+    let paginatedProducts = [];
+
+    while (i <= products.length) {
+      let arr = [];
+      for (let k = 0; k <= itemsOnPage; k++) {
+        if (i === products.length) {
+          break;
+        }
+        arr.push(i);
+        i++;
+      }
+      paginatedProducts.push(arr);
+    }
+    
+    response.send(paginatedProducts[page - 1]);
   });
 
   app.listen(PORT, () => {
