@@ -9,8 +9,8 @@ import {
 
 @Table({
   tableName: 'products',
-  createdAt: 'false',
-  updatedAt: 'false',
+  updatedAt: false,
+  createdAt: false,
 })
 export class Product extends Model {
   @AllowNull(false)

@@ -26,6 +26,9 @@ const serverInit = async () => {
     type: QueryTypes.SELECT,
   });
 
+  const products = await Product.findAll();
+  
+
   app.get('/products', (request, response) => {
     response.send(products);
   });
