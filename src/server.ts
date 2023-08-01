@@ -22,14 +22,19 @@ const serverInit = async () => {
   const res = await sequelize.authenticate();
   
 
-  app.post('/products' , async (request, response) => {
+  app.get('/products' , async (request, response) => {
     const productService = new ProductService()
     
     const products = await productService.getAll();
 
-    const { page, itemsOnPage } = request.body;
+    let page = Number(request.query.page);
+    let count = Number(request.query.count);
 
-    let paginatedProducts = sliceIntoChunks(products, itemsOnPage);
+    if (!page) {
+      page = 1;
+    }
+
+    let paginatedProducts = sliceIntoChunks(products, count);
     
     response.send(paginatedProducts[page - 1]);
   });
