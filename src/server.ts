@@ -31,7 +31,7 @@ const serverInit = async () => {
   const res = await sequelize.authenticate();
   
 
-  app.get('/products',express.json(), async (request, response) => {
+  app.post('/products',express.json(), async (request, response) => {
     const products = await Product.findAll();
 
     const { page, itemsOnPage } = request.body;
