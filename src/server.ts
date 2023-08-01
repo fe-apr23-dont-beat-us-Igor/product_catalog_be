@@ -1,11 +1,7 @@
 import express from 'express';
 import { initDB } from './initDB';
 import { sliceIntoChunks } from './helpers/sliceIntoChunks';
-const { QueryTypes } = require('sequelize');
 
-import sequelize from 'sequelize-typescript';
-import { Product } from './models/Product.model';
-import { models } from './models';
 import { ProductService } from './services/product.service';
 
 let cors = require('cors');
@@ -27,9 +23,9 @@ const serverInit = async () => {
   
 
   app.post('/products' , async (request, response) => {
-    const productService = new ProductService();
+    const productService = new ProductService()
     
-    const products = productService.getAll();
+    const products = await productService.getAll();
 
     const { page, itemsOnPage } = request.body;
 
