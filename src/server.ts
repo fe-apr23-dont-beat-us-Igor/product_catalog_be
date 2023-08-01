@@ -21,8 +21,7 @@ const serverInit = async () => {
 
   const res = await sequelize.authenticate();
 
-  const { QueryTypes } = require('sequelize');
-  const products = Product.findAll();
+  const products = await Product.findAll();
   
   app.get('/products', (request, response) => {
     response.send(products);
