@@ -2,8 +2,8 @@ import { Column, Table, AllowNull, Unique, Model, DataType } from 'sequelize-typ
 
 @Table({
   tableName: 'products',
-  createdAt: 'false',
-  updatedAt: 'false',
+  updatedAt: false,
+  createdAt: false,
 })
 
 export class Product extends Model {

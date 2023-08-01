@@ -7,7 +7,7 @@
     "run-seeds": "npx sequelize db:seed:all",
     "run-migrations": "npx sequelize db:migrate",
     "run-seeds-migrate": "npm run run-migrations ; npm run run-seeds",
-    "dev": "npm run run-seeds-migrate ; nodemon src/server.ts",
+    "dev": "nodemon src/server.ts",
     "sync-tables": "ts-node src/syncTables.ts",
     "build": "npx tsc",
     "pre-build": "npm ci; npm run run-seeds-migrate; npm run build",
