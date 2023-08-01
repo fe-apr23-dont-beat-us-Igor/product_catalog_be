@@ -21,8 +21,14 @@ const serverInit = async () => {
 
   const res = await sequelize.authenticate();
 
+  const { QueryTypes } = require('sequelize');
+  const products = await sequelize.query('SELECT * FROM products', {
+    type: QueryTypes.SELECT,
+  });
+
   const products = await Product.findAll();
   
+
   app.get('/products', (request, response) => {
     response.send(products);
   });
@@ -30,6 +36,6 @@ const serverInit = async () => {
   app.listen(PORT, () => {
     console.log(`API is ready on http://localhost:${PORT}`);
   });
-}
+};
 
 serverInit();
