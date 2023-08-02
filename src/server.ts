@@ -21,11 +21,16 @@ const serverInit = async () => {
   const sequelize = initDB();
 
   const res = await sequelize.authenticate();
-  
 
-  app.get('/products' , getAllProductsController);
 
-  app.get('/products/:id' , getProductById);
+  app.get('/products', getAllProductsController);
+
+  app.get('/products/:id', getProductById);
+
+  app.get('/images', function (req, res) {
+    res.sendFile('testing.jpg', { root: './src/images' });
+    res.sendFile('testing copy.jpg', { root: './src/images' });
+  });
 
   app.listen(PORT, () => {
     console.log(`API is ready on http://localhost:${PORT}`);
