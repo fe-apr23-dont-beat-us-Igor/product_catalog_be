@@ -343,6 +343,244 @@
     "link5": null
   },
   {
+    "link1": "applewatchseries3spacegray38mm",
+    "link2": "applewatchseries3spacegray38mm2",
+    "link3": "applewatchseries3spacegray38mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries3spacegray42mm",
+    "link2": "applewatchseries3spacegray42mm2",
+    "link3": "applewatchseries3spacegray42mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries3gold38mm",
+    "link2": "applewatchseries3gold38mm2",
+    "link3": "applewatchseries3gold38mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries3gold42mm",
+    "link2": "applewatchseries3gold42mm2",
+    "link3": "applewatchseries3gold42mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries3silver38mm",
+    "link2": "applewatchseries3silver38mm2",
+    "link3": "applewatchseries3silver38mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries3silver42mm",
+    "link2": "applewatchseries3silver42mm2",
+    "link3": "applewatchseries3silver42mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries6spacegray40mm",
+    "link2": "applewatchseries6spacegray40mm2",
+    "link3": "applewatchseries6spacegray40mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries6spacegray44mm",
+    "link2": "applewatchseries6spacegray44mm2",
+    "link3": "applewatchseries6spacegray44mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries6silver40mm",
+    "link2": "applewatchseries6silver40mm2",
+    "link3": "applewatchseries6silver40mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries6silver44mm",
+    "link2": "applewatchseries6silver44mm2",
+    "link3": "applewatchseries6silver44mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries6gold40mm",
+    "link2": "applewatchseries6gold40mm2",
+    "link3": "applewatchseries6gold40mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries6gold44mm",
+    "link2": "applewatchseries6gold44mm2",
+    "link3": "applewatchseries6gold44mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries6blue40mm",
+    "link2": "applewatchseries6blue40mm2",
+    "link3": "applewatchseries6blue40mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries6blue44mm",
+    "link2": "applewatchseries6blue44mm2",
+    "link3": "applewatchseries6blue44mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries6red40mm",
+    "link2": "applewatchseries6red40mm2",
+    "link3": "applewatchseries6red40mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries6red44mm",
+    "link2": "applewatchseries6red44mm2",
+    "link3": "applewatchseries6red44mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries5silver40mm",
+    "link2": "applewatchseries5silver40mm2",
+    "link3": "applewatchseries5silver40mm3",
+    "link4": "applewatchseries5silver40mm4",
+    "link5": "applewatchseries5silver40mm5"
+  },
+  {
+    "link1": "applewatchseries5silver44mm",
+    "link2": "applewatchseries5silver44mm2",
+    "link3": "applewatchseries5silver44mm3",
+    "link4": "applewatchseries5silver44mm4",
+    "link5": "applewatchseries5silver44mm5"
+  },
+  {
+    "link1": "applewatchseries5gold40mm",
+    "link2": "applewatchseries5gold40mm2",
+    "link3": "applewatchseries5gold40mm3",
+    "link4": "applewatchseries5gold40mm4",
+    "link5": "applewatchseries5gold40mm5"
+  },
+  {
+    "link1": "applewatchseries5gold44mm",
+    "link2": "applewatchseries5gold44mm2",
+    "link3": "applewatchseries5gold44mm3",
+    "link4": "applewatchseries5gold44mm4",
+    "link5": "applewatchseries5gold44mm5"
+  },
+  {
+    "link1": "applewatchseries5spacegray40mm",
+    "link2": "applewatchseries5spacegray40mm2",
+    "link3": "applewatchseries5spacegray40mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries5spacegray44mm",
+    "link2": "applewatchseries5spacegray44mm2",
+    "link3": "applewatchseries5spacegray44mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries4silver40mm",
+    "link2": "applewatchseries4silver40mm2",
+    "link3": "applewatchseries4silver40mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries4silver44mm",
+    "link2": "applewatchseries4silver44mm2",
+    "link3": "applewatchseries4silver44mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries4gold40mm",
+    "link2": "applewatchseries4gold40mm2",
+    "link3": "applewatchseries4gold40mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries4gold44mm",
+    "link2": "applewatchseries4gold44mm2",
+    "link3": "applewatchseries4gold44mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries4spacegray40mm",
+    "link2": "applewatchseries4spacegray40mm2",
+    "link3": "applewatchseries4spacegray40mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchseries4spacegray44mm",
+    "link2": "applewatchseries4spacegray44mm2",
+    "link3": "applewatchseries4spacegray44mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchsesilver40mm",
+    "link2": "applewatchsesilver40mm2",
+    "link3": "applewatchsesilver40mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchsesilver44mm",
+    "link2": "applewatchsesilver44mm2",
+    "link3": "applewatchsesilver44mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchsegold40mm",
+    "link2": "applewatchsegold40mm2",
+    "link3": "applewatchsegold40mm3",
+    "link4": null,
+    "link5": null
+  },
+  {
+    "link1": "applewatchsegold44mm",
+    "link2": "applewatchsegold44mm2",
+    "link3": "applewatchsegold44mm3",
+    "link4": "4",
+    "link5": "5"
+  },
+  {
+    "link1": "applewatchsespacegray40mm",
+    "link2": "applewatchsespacegray40mm2",
+    "link3": "applewatchsespacegray40mm3",
+    "link4": "applewatchsespacegray40mm4",
+    "link5": "applewatchsespacegray40mm5"
+  },
+  {
+    "link1": "applewatchsespacegray44mm",
+    "link2": "applewatchsespacegray44mm2",
+    "link3": "applewatchsespacegray44mm3",
+    "link4": "applewatchsespacegray44mm4",
+    "link5": "applewatchsespacegray44mm5"
+  },
+  {
     "link1": "",
     "link2": "2",
     "link3": "3",
