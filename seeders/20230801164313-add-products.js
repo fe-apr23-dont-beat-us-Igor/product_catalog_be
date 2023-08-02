@@ -14,7 +14,10 @@ products = products.map((product) => {
     screen,
     ram,
     year,
+    image,
   } = product;
+
+  let image_catalog = image;
 
   let imageId = 1;
 
@@ -29,6 +32,7 @@ products = products.map((product) => {
     screen,
     ram,
     year,
+    image_catalog,
     image_id: imageId,
   }
 });
