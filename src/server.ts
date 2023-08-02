@@ -27,9 +27,10 @@ const serverInit = async () => {
 
   app.get('/products/:id', getProductById);
 
-  app.get('/images', function (req, res) {
-    res.sendFile('testing.jpg', { root: './src/images' });
-    res.sendFile('testing copy.jpg', { root: './src/images' });
+  app.post('/images', function (req, res) {
+    let  { link } = req.body;
+
+    res.sendFile(link, { root: './src' });
   });
 
   app.listen(PORT, () => {
