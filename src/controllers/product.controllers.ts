@@ -9,23 +9,29 @@ export const getAllProductsController = async (req: Request, res: Response) => {
 
   const {
     limit = 16,
-    offset = 0,
+    page = 1,
     sortBy = 'id',
   } = req.query;
 
   const isSortByValid = typeof sortBy === 'string' && availableSortBy.includes(sortBy)
   const isLimitValid = !Number.isNaN(Number(limit));
-  const isOffsetValid = !Number.isNaN(Number(offset));
+  const isPageValid = !Number.isNaN(Number(page));
 
-  if (!isSortByValid || !isLimitValid || !isOffsetValid) {
+  if (!isSortByValid || !isLimitValid || !isPageValid) {
     res.sendStatus(400);
 
     return;
   }
 
+  let offset = 0
+  
+  if (Number(page) !== 1) {
+    offset = Number(page) * Number(limit);
+  }
+
   const results = await productService.findAndCountAll({
     limit: Number(limit),
-    offset: Number(offset),
+    offset: offset,
     sortBy,
   });
 
