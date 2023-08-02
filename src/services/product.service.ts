@@ -24,6 +24,9 @@ export class ProductService {
     console.log(sortBy)
 
     return Product.findAndCountAll({
+      where: {
+        category: 'phones'
+      },
       limit,
       offset,
       order: [[sortBy, 'ASC']],
