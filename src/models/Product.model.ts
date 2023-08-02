@@ -78,6 +78,12 @@ export class Product extends Model {
   year: number;
 
   @AllowNull(false)
+  @Column({
+    type: DataType.STRING,
+  })
+  image_catalog: string;
+
+  @AllowNull(false)
   @ForeignKey(() => Image)
   @Column({
     type: DataType.INTEGER,

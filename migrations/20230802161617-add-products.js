@@ -51,6 +51,10 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
+      image_catalog: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
       image_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
