@@ -2,30 +2,34 @@ import { sliceIntoChunks } from "../helpers/sliceIntoChunks";
 import { ProductService } from "../services/product.service";
 import { Response, Request } from 'express';
 
+const availableSortBy = ['id', 'name'];
+
 export const getAllProductsController = async (req: Request, res: Response) => {
   const productService = new ProductService()
 
-  const products = await productService.getAll('phones');
+  const {
+    limit = 16,
+    offset = 0,
+    sortBy = 'id',
+  } = req.query;
 
-  let page = Number(req.query.page);
-  let count = Number(req.query.count);
+  const isSortByValid = typeof sortBy === 'string' && availableSortBy.includes(sortBy)
+  const isLimitValid = !Number.isNaN(Number(limit));
+  const isOffsetValid = !Number.isNaN(Number(offset));
 
-  if (!page) {
-    page = 1;
+  if (!isSortByValid || !isLimitValid || !isOffsetValid) {
+    res.sendStatus(400);
+
+    return;
   }
 
-  if (!count) {
-    count = 16;
-  }
+  const results = await productService.findAndCountAll({
+    limit: Number(limit),
+    offset: Number(offset),
+    sortBy,
+  });
 
-  let paginatedProducts = sliceIntoChunks(products, count);
-
-  let result = {
-    paginatedProducts: paginatedProducts[page - 1],
-    itemsCount: products.length,
-  }
-
-  res.send(result);
+  res.send(results);
 }
 
 export const getProductById = async (req: Request, res: Response) => {
