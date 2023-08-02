@@ -14,7 +14,7 @@ export class ProductService {
   }
 
   
-  findAndCountAll(options: FindAllOptions = {}) {
+   async findAndCountAll(options: FindAllOptions = {}) {
     const {
       limit,
       offset,
@@ -23,7 +23,7 @@ export class ProductService {
 
     console.log(sortBy)
 
-    return Product.findAndCountAll({
+    return await Product.findAndCountAll({
       where: {
         category: 'phones'
       },
