@@ -4,7 +4,7 @@ import { Image } from "../models/Image.model";
 import { ProductService } from "../services/product.service";
 import { Response, Request } from 'express';
 
-const availableSortBy = ['name', 'fullPrice', 'year'];
+const availableSortBy = ['name', 'fullprice', 'year'];
 const availableCategories = ['phones', 'tablets', 'accessories']
 const availableOrder = ['ASC', 'DESC', 'asc', 'desc'];
 
@@ -18,6 +18,13 @@ export const getAllProductsController = async (req: Request, res: Response) => {
     category = 'phones',
     order = 'ASC',
   } = req.query;
+
+  for(let q in req.query) {
+    if (!availableSortBy.includes(q)) {
+      res.sendStatus(400);
+      return;
+    }
+  }
 
   const isSortByValid = typeof sortby === 'string' && availableSortBy.includes(sortby);
   const isLimitValid = !Number.isNaN(Number(limit));
