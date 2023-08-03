@@ -4,8 +4,9 @@ import { Image } from "../models/Image.model";
 import { ProductService } from "../services/product.service";
 import { Response, Request } from 'express';
 
-const availableSortBy = ['id', 'name'];
+const availableSortBy = ['name', 'fullPrice', 'year'];
 const availableCategories = ['phones', 'tablets', 'accessories']
+const availableOrder = ['ASC', 'DESC', 'asc', 'desc'];
 
 export const getAllProductsController = async (req: Request, res: Response) => {
   const productService = new ProductService()
@@ -13,16 +14,18 @@ export const getAllProductsController = async (req: Request, res: Response) => {
   const {
     limit = 16,
     page = 1,
-    sortBy = 'id',
-    category = 'phones'
+    sortBy = 'name',
+    category = 'phones',
+    order = 'ASC',
   } = req.query;
 
   const isSortByValid = typeof sortBy === 'string' && availableSortBy.includes(sortBy);
   const isLimitValid = !Number.isNaN(Number(limit));
   const isPageValid = !Number.isNaN(Number(page));
   const isCategoryValid = typeof category === 'string' && availableCategories.includes(category)
-
-  if (!isSortByValid || !isLimitValid || !isPageValid || !isCategoryValid) {
+  const isOrderValid = typeof order === 'string' && availableOrder.includes(order);
+ 
+  if (!isSortByValid || !isLimitValid || !isPageValid || !isCategoryValid || !isOrderValid) {
     res.sendStatus(400);
 
     return;
@@ -39,6 +42,7 @@ export const getAllProductsController = async (req: Request, res: Response) => {
     limit: Number(limit),
     offset: offset,
     sortBy,
+    order: order.toUpperCase(),
   });
 
   res.send(results);
