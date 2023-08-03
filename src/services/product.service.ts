@@ -7,6 +7,7 @@ interface FindAllOptions {
   offset?: number;
   sortBy?: string;
   category?: string;
+  order?: string;
 }
 
 export class ProductService {
@@ -20,7 +21,8 @@ export class ProductService {
       category,
       limit,
       offset,
-      sortBy = 'id',
+      sortBy = 'name',
+      order = 'ASC',
     } = options;
 
     console.log(sortBy)
@@ -31,7 +33,7 @@ export class ProductService {
       },
       limit,
       offset,
-      order: [[sortBy, 'ASC']],
+      order: [[sortBy, order]],
     });
   }
 
