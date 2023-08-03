@@ -49,6 +49,28 @@ const serverInit = async () => {
     res.sendFile(link, { root: './src/images' });
   });
 
+  app.get('/products/:id/recommended', async (req, res) => {
+    const productService = new ProductService();
+  
+    const { id } = req.params;
+    
+    const product = await productService.getById(id);
+
+    const recommended = await Product.findAll(
+      {
+        where: {
+          category: product?.category,
+          ram: product?.ram,
+          [Op.not]: [
+            {itemId: product?.itemId}
+          ],
+        }
+      }
+    )
+  
+    res.send(recommended);
+  });
+
   app.listen(PORT, () => {
     console.log(`API is ready on http://localhost:${PORT}`);
   });
