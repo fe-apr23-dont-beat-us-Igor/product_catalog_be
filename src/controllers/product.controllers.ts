@@ -14,12 +14,12 @@ export const getAllProductsController = async (req: Request, res: Response) => {
   const {
     limit = 16,
     page = 1,
-    sortBy = 'name',
+    sortby,
     category = 'phones',
     order = 'ASC',
   } = req.query;
 
-  const isSortByValid = typeof sortBy === 'string' && availableSortBy.includes(sortBy);
+  const isSortByValid = typeof sortby === 'string' && availableSortBy.includes(sortby);
   const isLimitValid = !Number.isNaN(Number(limit));
   const isPageValid = !Number.isNaN(Number(page));
   const isCategoryValid = typeof category === 'string' && availableCategories.includes(category)
@@ -41,7 +41,7 @@ export const getAllProductsController = async (req: Request, res: Response) => {
     category,
     limit: Number(limit),
     offset: offset,
-    sortBy,
+    sortBy: sortby,
     order: order.toUpperCase(),
   });
 
