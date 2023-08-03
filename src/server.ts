@@ -1,9 +1,11 @@
 import express from 'express';
 import { initDB } from './initDB';
 import { sliceIntoChunks } from './helpers/sliceIntoChunks';
+const { Op } = require("sequelize");
 
 import { ProductService } from './services/product.service';
 import { getAllProductsController, getProductById } from './controllers/product.controllers';
+import { Product } from './models/Product.model';
 
 let cors = require('cors');
 
@@ -25,6 +27,20 @@ const serverInit = async () => {
 
   app.get('/products', getAllProductsController);
 
+  app.get('/products/new', async (req, res) => {
+    let prods = await Product.findAll({
+      where: {
+        [Op.or]: [
+          { year: 2023 },
+          { year: 2022 },
+          { year: 2021 },
+        ]
+      }
+    });
+
+    res.send(prods);
+  });
+  
   app.get('/products/:id', getProductById);
 
   app.get('/images/:link', function (req, res) {
