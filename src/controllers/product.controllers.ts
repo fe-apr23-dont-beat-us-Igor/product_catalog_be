@@ -1,4 +1,6 @@
 import { sliceIntoChunks } from "../helpers/sliceIntoChunks";
+import { Image } from "../models/Image.model";
+
 import { ProductService } from "../services/product.service";
 import { Response, Request } from 'express';
 
@@ -45,5 +47,10 @@ export const getProductById = async (req: Request, res: Response) => {
   
   const product = await productService.getById(Number(id));
 
-  res.send(product);
+  const productLinks = await Image.findByPk(Number(product?.image_id));
+
+  res.send({
+    product,
+    productLinks
+  });
 } 

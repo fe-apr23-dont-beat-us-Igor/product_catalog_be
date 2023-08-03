@@ -39,6 +39,10 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
+      description: {
+        type: Sequelize.TEXT,
+        allowNull: false,
+      },
       screen: {
         type: Sequelize.STRING,
         allowNull: false,

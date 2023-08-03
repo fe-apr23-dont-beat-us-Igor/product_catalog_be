@@ -2,7 +2,7 @@
 
 let products = require('../src/products.json');
 
-products = products.map((product) => {
+products = products.map((product, index) => {
   const {
     itemId,
     category,
@@ -11,6 +11,7 @@ products = products.map((product) => {
     fullPrice,
     color,
     price,
+    description,
     screen,
     ram,
     year,
@@ -19,7 +20,7 @@ products = products.map((product) => {
 
   let image_catalog = image;
 
-  let imageId = 1;
+  let imageId = index + 1;
 
   return {
     itemId,
@@ -27,6 +28,7 @@ products = products.map((product) => {
     name,
     capacity,
     fullPrice,
+    description,
     color,
     price,
     screen,
@@ -50,4 +52,3 @@ module.exports = {
   async down (queryInterface, Sequelize) {
   }
 };
-

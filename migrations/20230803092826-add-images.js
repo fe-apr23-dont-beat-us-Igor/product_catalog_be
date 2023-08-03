@@ -28,7 +28,7 @@ module.exports = {
         allowNull: true,
       },
       link5: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: true,
       }
     });

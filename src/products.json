@@ -3,6 +3,7 @@
     "id": 1,
     "category": "phones",
     "itemId": "apple-iphone-7-32gb-black",
+    "description": "IPhone 7 and 7 Plus. The iPhone 7 and 7 Plus, announced on Sept. 7, 2016, boasted Apple's first water- and dust-resistant casing. The devices, which came in 32 GB, 128 GB and 256 GB versions, also featured two 12-megapixel cameras and Apple's new four-core A10 Fusion processor.In a major design change, Apple eliminated the headphone jack in the iPhone 7 and 7 Plus, forcing users to either rely on wireless headphones or an adapter for the iPhone's Lightning port. The iPhone 7 and 7 Plus shipped with iOS 10, whose new features included Siri integration with third-party apps and expanded 3D Touch capabilities.",
     "name": "Apple iPhone 7 32GB Black",
     "fullPrice": 400,
     "price": 375,
@@ -11,12 +12,13 @@
     "color": "black",
     "ram": "2GB",
     "year": 2016,
-    "image": "img/phones/apple-iphone-7/black/00.webp"
+    "image": "iphone7black32gb.jpg"
   },
   {
     "id": 2,
     "category": "phones",
     "itemId": "apple-iphone-7-plus-32gb-black",
+    "description": "IPhone 7 and 7 Plus. The iPhone 7 and 7 Plus, announced on Sept. 7, 2016, boasted Apple's first water- and dust-resistant casing. The devices, which came in 32 GB, 128 GB and 256 GB versions, also featured two 12-megapixel cameras and Apple's new four-core A10 Fusion processor.In a major design change, Apple eliminated the headphone jack in the iPhone 7 and 7 Plus, forcing users to either rely on wireless headphones or an adapter for the iPhone's Lightning port. The iPhone 7 and 7 Plus shipped with iOS 10, whose new features included Siri integration with third-party apps and expanded 3D Touch capabilities.",
     "name": "Apple iPhone 7 Plus 32GB Black",
     "fullPrice": 540,
     "price": 500,
@@ -25,12 +27,13 @@
     "color": "black",
     "ram": "3GB",
     "year": 2016,
-    "image": "img/phones/apple-iphone-7-plus/black/00.webp"
+    "image": "iphone7plusblack32gb.jpg"
   },
   {
     "id": 3,
     "category": "phones",
     "itemId": "apple-iphone-8-64gb-gold",
+    "description": "IPhone 8 and 8 Plus. Apple gave the iPhone 8 and 8 Plus a new aluminum and glass design, a six-core A11 Bionic processor and wireless charging capabilities. The devices, released on Sept. 22, 2017, also had new cameras built especially for augmented reality use cases. Both models came in two sizes: 64 GB and 256 GB. The iPhone 8 and 8 Plus shipped with iOS 11, which included ARKit, an SDK for augmented reality apps.",
     "name": "Apple iPhone 8 64GB Gold",
     "fullPrice": 600,
     "price": 550,
@@ -39,12 +42,13 @@
     "color": "gold",
     "ram": "2GB",
     "year": 2017,
-    "image": "img/phones/apple-iphone-8/gold/00.webp"
+    "image": "iphone8gold64gb.jpg"
   },
   {
     "id": 4,
     "category": "phones",
     "itemId": "apple-iphone-11-64gb-black",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 64GB Black",
     "fullPrice": 932,
     "price": 880,
@@ -53,12 +57,13 @@
     "color": "black",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/black/00.webp"
+    "image": "iphone11black64gb.jpg"
   },
   {
     "id": 5,
     "category": "phones",
     "itemId": "apple-iphone-11-128gb-yellow",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 128GB Yellow",
     "fullPrice": 1100,
     "price": 1050,
@@ -67,12 +72,13 @@
     "color": "yellow",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/yellow/00.webp"
+    "image": "iphone11yellow64gb.jpg"
   },
   {
     "id": 6,
     "category": "phones",
     "itemId": "apple-iphone-11-256gb-green",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 256GB Green",
     "fullPrice": 1172,
     "price": 1115,
@@ -81,12 +87,13 @@
     "color": "green",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/green/00.webp"
+    "image": "iphone11green256gb.jpg"
   },
   {
     "id": 7,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-64gb-gold",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro 64GB Gold",
     "fullPrice": 1312,
     "price": 1270,
@@ -95,12 +102,13 @@
     "color": "gold",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/gold/00.webp"
+    "image": "iphone11progold64gb.jpg"
   },
   {
     "id": 8,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-256gb-midnightgreen",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro 256GB Midnight green",
     "fullPrice": 1640,
     "price": 1570,
@@ -109,12 +117,13 @@
     "color": "midnightgreen",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/midnightgreen/00.webp"
+    "image": "iphone11promidnightgreen256gb.jpg"
   },
   {
     "id": 9,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-512gb-silver",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro 512GB Silver",
     "fullPrice": 1880,
     "price": 1780,
@@ -123,12 +132,13 @@
     "color": "silver",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/silver/00.webp"
+    "image": "iphone11prosilver512gb.jpg"
   },
   {
     "id": 10,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-max-64gb-spacegray",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro Max 64GB Spacegray",
     "fullPrice": 1480,
     "price": 1400,
@@ -137,12 +147,13 @@
     "color": "spacegray",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/spacegray/00.webp"
+    "image": "iphone11promaxspacegray64gb.jpg"
   },
   {
     "id": 11,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-max-256gb-gold",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro Max 256GB Gold",
     "fullPrice": 1776,
     "price": 1680,
@@ -151,12 +162,13 @@
     "color": "gold",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/gold/00.webp"
+    "image": "iphone11promaxgold256bg.jpg"
   },
   {
     "id": 12,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-max-512gb-spacegray",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro Max 512GB Spacegray",
     "fullPrice": 2020,
     "price": 1930,
@@ -165,12 +177,13 @@
     "color": "spacegray",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/spacegray/00.webp"
+    "image": "iphone11promaxspacegray512gb.jpg"
   },
   {
     "id": 13,
     "category": "phones",
     "itemId": "apple-iphone-xr-64gb-red",
+    "description": "IPhone X, XR and XS/XS Max. Apple also announced the iPhone X in September 2017. The iPhone X was the first iPhone to eliminate the physical Home button that was present on every preceding iPhone model, giving the device a touchscreen-only interface. Like the iPhone 8 and 8 Plus, the iPhone X used the A11 Bionic chip.The iPhone X featured an all-glass design and a 5.8-inch super Retina HD display, making it the largest iPhone in history at the time. The device also marked the debut of Face ID, a new way of authenticating user access through facial recognition technology. The iPhone X came in two storage options -- 64 GB and 256 GB.In September 2018, Apple announced three more iPhone X models. The iPhone XR was a budget version of the flagship phone that came with a larger 6.1-inch display. But the technology in the display had a lower resolution, Liquid Retina HD display that used LCD as opposed to the light-emitting diode, or OLED, Super Retina HD displays available in iPhone X and XS/XS Max displays. The XR used an upgraded A12 Bionic chip and boasted a battery life that was better than all other X models. The XR could be purchased with either 64 GB or 128 GB storage capacity.",
     "name": "Apple iPhone XR 64GB Red",
     "fullPrice": 712,
     "price": 670,
@@ -179,12 +192,13 @@
     "color": "red",
     "ram": "3GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xr/red/00.webp"
+    "image": "iphonexrred64gb.jpg"
   },
   {
     "id": 14,
     "category": "phones",
     "itemId": "apple-iphone-xr-128gb-white",
+    "description": "IPhone X, XR and XS/XS Max. Apple also announced the iPhone X in September 2017. The iPhone X was the first iPhone to eliminate the physical Home button that was present on every preceding iPhone model, giving the device a touchscreen-only interface. Like the iPhone 8 and 8 Plus, the iPhone X used the A11 Bionic chip.The iPhone X featured an all-glass design and a 5.8-inch super Retina HD display, making it the largest iPhone in history at the time. The device also marked the debut of Face ID, a new way of authenticating user access through facial recognition technology. The iPhone X came in two storage options -- 64 GB and 256 GB.In September 2018, Apple announced three more iPhone X models. The iPhone XR was a budget version of the flagship phone that came with a larger 6.1-inch display. But the technology in the display had a lower resolution, Liquid Retina HD display that used LCD as opposed to the light-emitting diode, or OLED, Super Retina HD displays available in iPhone X and XS/XS Max displays. The XR used an upgraded A12 Bionic chip and boasted a battery life that was better than all other X models. The XR could be purchased with either 64 GB or 128 GB storage capacity.",
     "name": "Apple iPhone XR 128GB White",
     "fullPrice": 880,
     "price": 815,
@@ -193,12 +207,13 @@
     "color": "white",
     "ram": "3GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xr/white/00.webp"
+    "image": "iphonexrwhite128gb.jpg"
   },
   {
     "id": 15,
     "category": "phones",
     "itemId": "apple-iphone-xs-64gb-spacegray",
+    "description": "IPhone X, XR and XS/XS Max. Apple also announced the iPhone X in September 2017. The iPhone X was the first iPhone to eliminate the physical Home button that was present on every preceding iPhone model, giving the device a touchscreen-only interface. Like the iPhone 8 and 8 Plus, the iPhone X used the A11 Bionic chip.The iPhone X featured an all-glass design and a 5.8-inch super Retina HD display, making it the largest iPhone in history at the time. The device also marked the debut of Face ID, a new way of authenticating user access through facial recognition technology. The iPhone X came in two storage options -- 64 GB and 256 GB.In September 2018, Apple announced three more iPhone X models. The iPhone XR was a budget version of the flagship phone that came with a larger 6.1-inch display. But the technology in the display had a lower resolution, Liquid Retina HD display that used LCD as opposed to the light-emitting diode, or OLED, Super Retina HD displays available in iPhone X and XS/XS Max displays. The XR used an upgraded A12 Bionic chip and boasted a battery life that was better than all other X models. The XR could be purchased with either 64 GB or 128 GB storage capacity.",
     "name": "Apple iPhone XS 64GB Spacegray",
     "fullPrice": 760,
     "price": 720,
@@ -207,12 +222,13 @@
     "color": "spacegray",
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs/spacegray/00.webp"
+    "image": "iphonexsspacegray64gb.jpg"
   },
   {
     "id": 16,
     "category": "phones",
     "itemId": "apple-iphone-xs-max-64gb-gold",
+    "description": "IPhone X, XR and XS/XS Max. Apple also announced the iPhone X in September 2017. The iPhone X was the first iPhone to eliminate the physical Home button that was present on every preceding iPhone model, giving the device a touchscreen-only interface. Like the iPhone 8 and 8 Plus, the iPhone X used the A11 Bionic chip.The iPhone X featured an all-glass design and a 5.8-inch super Retina HD display, making it the largest iPhone in history at the time. The device also marked the debut of Face ID, a new way of authenticating user access through facial recognition technology. The iPhone X came in two storage options -- 64 GB and 256 GB.In September 2018, Apple announced three more iPhone X models. The iPhone XR was a budget version of the flagship phone that came with a larger 6.1-inch display. But the technology in the display had a lower resolution, Liquid Retina HD display that used LCD as opposed to the light-emitting diode, or OLED, Super Retina HD displays available in iPhone X and XS/XS Max displays. The XR used an upgraded A12 Bionic chip and boasted a battery life that was better than all other X models. The XR could be purchased with either 64 GB or 128 GB storage capacity.",
     "name": "Apple iPhone XS Max 64GB Gold",
     "fullPrice": 960,
     "price": 900,
@@ -221,12 +237,13 @@
     "color": "gold",
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs-max/gold/00.webp"
+    "image": "iphonexsmaxgold64gb.jpg"
   },
   {
     "id": 17,
     "category": "phones",
     "itemId": "apple-iphone-xs-max-256gb-silver",
+    "description": "IPhone X, XR and XS/XS Max. Apple also announced the iPhone X in September 2017. The iPhone X was the first iPhone to eliminate the physical Home button that was present on every preceding iPhone model, giving the device a touchscreen-only interface. Like the iPhone 8 and 8 Plus, the iPhone X used the A11 Bionic chip.The iPhone X featured an all-glass design and a 5.8-inch super Retina HD display, making it the largest iPhone in history at the time. The device also marked the debut of Face ID, a new way of authenticating user access through facial recognition technology. The iPhone X came in two storage options -- 64 GB and 256 GB.In September 2018, Apple announced three more iPhone X models. The iPhone XR was a budget version of the flagship phone that came with a larger 6.1-inch display. But the technology in the display had a lower resolution, Liquid Retina HD display that used LCD as opposed to the light-emitting diode, or OLED, Super Retina HD displays available in iPhone X and XS/XS Max displays. The XR used an upgraded A12 Bionic chip and boasted a battery life that was better than all other X models. The XR could be purchased with either 64 GB or 128 GB storage capacity.",
     "name": "Apple iPhone XS Max 256GB Silver",
     "fullPrice": 1080,
     "price": 1000,
@@ -235,12 +252,13 @@
     "color": "silver",
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs-max/silver/00.webp"
+    "image": "iphonexssilver256gb.jpg"
   },
   {
     "id": 18,
     "category": "phones",
     "itemId": "apple-iphone-7-32gb-gold",
+    "description": "IPhone 7 and 7 Plus. The iPhone 7 and 7 Plus, announced on Sept. 7, 2016, boasted Apple's first water- and dust-resistant casing. The devices, which came in 32 GB, 128 GB and 256 GB versions, also featured two 12-megapixel cameras and Apple's new four-core A10 Fusion processor.In a major design change, Apple eliminated the headphone jack in the iPhone 7 and 7 Plus, forcing users to either rely on wireless headphones or an adapter for the iPhone's Lightning port. The iPhone 7 and 7 Plus shipped with iOS 10, whose new features included Siri integration with third-party apps and expanded 3D Touch capabilities.",
     "name": "Apple iPhone 7 32GB Gold",
     "fullPrice": 400,
     "price": 375,
@@ -249,12 +267,13 @@
     "color": "gold",
     "ram": "2GB",
     "year": 2016,
-    "image": "img/phones/apple-iphone-7/gold/00.webp"
+    "image": "iphone7gold32gb.jpg"
   },
   {
     "id": 19,
     "category": "phones",
     "itemId": "apple-iphone-7-plus-32gb-silver",
+    "description": "IPhone 7 and 7 Plus. The iPhone 7 and 7 Plus, announced on Sept. 7, 2016, boasted Apple's first water- and dust-resistant casing. The devices, which came in 32 GB, 128 GB and 256 GB versions, also featured two 12-megapixel cameras and Apple's new four-core A10 Fusion processor.In a major design change, Apple eliminated the headphone jack in the iPhone 7 and 7 Plus, forcing users to either rely on wireless headphones or an adapter for the iPhone's Lightning port. The iPhone 7 and 7 Plus shipped with iOS 10, whose new features included Siri integration with third-party apps and expanded 3D Touch capabilities.",
     "name": "Apple iPhone 7 Plus 32GB Silver",
     "fullPrice": 540,
     "price": 500,
@@ -263,12 +282,13 @@
     "color": "silver",
     "ram": "3GB",
     "year": 2016,
-    "image": "img/phones/apple-iphone-7-plus/silver/00.webp"
+    "image": "iphone7plussilver32gb.jpg"
   },
   {
     "id": 20,
     "category": "phones",
     "itemId": "apple-iphone-8-64gb-spacegray",
+    "description": "IPhone 8 and 8 Plus. Apple gave the iPhone 8 and 8 Plus a new aluminum and glass design, a six-core A11 Bionic processor and wireless charging capabilities. The devices, released on Sept. 22, 2017, also had new cameras built especially for augmented reality use cases. Both models came in two sizes: 64 GB and 256 GB. The iPhone 8 and 8 Plus shipped with iOS 11, which included ARKit, an SDK for augmented reality apps.",
     "name": "Apple iPhone 8 64GB Space Gray",
     "fullPrice": 600,
     "price": 550,
@@ -277,12 +297,13 @@
     "color": "spacegray",
     "ram": "2GB",
     "year": 2017,
-    "image": "img/phones/apple-iphone-8/spacegray/00.webp"
+    "image": "iphone7spacegray64gb.jpg"
   },
   {
     "id": 21,
     "category": "phones",
     "itemId": "apple-iphone-11-64gb-green",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 64GB Green",
     "fullPrice": 932,
     "price": 880,
@@ -291,12 +312,13 @@
     "color": "green",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/green/00.webp"
+    "image": "iphone11green64gb.jpg"
   },
   {
     "id": 22,
     "category": "phones",
     "itemId": "apple-iphone-11-128gb-purple",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 128GB Purple",
     "fullPrice": 1100,
     "price": 1050,
@@ -305,12 +327,13 @@
     "color": "purple",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/purple/00.webp"
+    "image": "iphone11purple128gb.jpg"
   },
   {
     "id": 23,
     "category": "phones",
     "itemId": "apple-iphone-11-256gb-yellow",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 256GB Yellow",
     "fullPrice": 1172,
     "price": 1115,
@@ -319,12 +342,13 @@
     "color": "yellow",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/yellow/00.webp"
+    "image": "iphone11yellow256gb.jpg"
   },
   {
     "id": 24,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-256gb-gold",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro 256GB Gold",
     "fullPrice": 1640,
     "price": 1570,
@@ -333,12 +357,13 @@
     "color": "gold",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/gold/00.webp"
+    "image": "iphone11prospacegray512gb.jpg"
   },
   {
     "id": 25,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-512gb-spacegray",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro 512GB Spacegray",
     "fullPrice": 1880,
     "price": 1780,
@@ -347,12 +372,13 @@
     "color": "spacegray",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/spacegray/00.webp"
+    "image": "iphone11prospacegray512gb.jpg"
   },
   {
     "id": 26,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-max-64gb-silver",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro Max 64GB Silver",
     "fullPrice": 1480,
     "price": 1400,
@@ -361,12 +387,13 @@
     "color": "silver",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/silver/00.webp"
+    "image": "iphone11promaxsilver64gb.jpg"
   },
   {
     "id": 27,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-max-256gb-midnightgreen",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro Max 256GB Midnightgreen",
     "fullPrice": 1776,
     "price": 1680,
@@ -375,12 +402,13 @@
     "color": "midnightgreen",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/midnightgreen/00.webp"
+    "image": "iphone11promaxmidnightgreen256gb.jpg"
   },
   {
     "id": 28,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-max-512gb-silver",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro Max 512GB Silver",
     "fullPrice": 2020,
     "price": 1930,
@@ -389,12 +417,13 @@
     "color": "silver",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/silver/00.webp"
+    "image": "iphone11promaxsilver512gb.jpg"
   },
   {
     "id": 29,
     "category": "phones",
     "itemId": "apple-iphone-xr-64gb-white",
+    "description": "IPhone X, XR and XS/XS Max. Apple also announced the iPhone X in September 2017. The iPhone X was the first iPhone to eliminate the physical Home button that was present on every preceding iPhone model, giving the device a touchscreen-only interface. Like the iPhone 8 and 8 Plus, the iPhone X used the A11 Bionic chip.The iPhone X featured an all-glass design and a 5.8-inch super Retina HD display, making it the largest iPhone in history at the time. The device also marked the debut of Face ID, a new way of authenticating user access through facial recognition technology. The iPhone X came in two storage options -- 64 GB and 256 GB.In September 2018, Apple announced three more iPhone X models. The iPhone XR was a budget version of the flagship phone that came with a larger 6.1-inch display. But the technology in the display had a lower resolution, Liquid Retina HD display that used LCD as opposed to the light-emitting diode, or OLED, Super Retina HD displays available in iPhone X and XS/XS Max displays. The XR used an upgraded A12 Bionic chip and boasted a battery life that was better than all other X models. The XR could be purchased with either 64 GB or 128 GB storage capacity.",
     "name": "Apple iPhone XR 64GB White",
     "fullPrice": 712,
     "price": 670,
@@ -403,12 +432,13 @@
     "color": "white",
     "ram": "3GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xr/white/00.webp"
+    "image": "iphonexrwhite64gb.jpg"
   },
   {
     "id": 30,
     "category": "phones",
     "itemId": "apple-iphone-xr-128gb-coral",
+    "description": "IPhone X, XR and XS/XS Max. Apple also announced the iPhone X in September 2017. The iPhone X was the first iPhone to eliminate the physical Home button that was present on every preceding iPhone model, giving the device a touchscreen-only interface. Like the iPhone 8 and 8 Plus, the iPhone X used the A11 Bionic chip.The iPhone X featured an all-glass design and a 5.8-inch super Retina HD display, making it the largest iPhone in history at the time. The device also marked the debut of Face ID, a new way of authenticating user access through facial recognition technology. The iPhone X came in two storage options -- 64 GB and 256 GB.In September 2018, Apple announced three more iPhone X models. The iPhone XR was a budget version of the flagship phone that came with a larger 6.1-inch display. But the technology in the display had a lower resolution, Liquid Retina HD display that used LCD as opposed to the light-emitting diode, or OLED, Super Retina HD displays available in iPhone X and XS/XS Max displays. The XR used an upgraded A12 Bionic chip and boasted a battery life that was better than all other X models. The XR could be purchased with either 64 GB or 128 GB storage capacity.",
     "name": "Apple iPhone XR 128GB Coral",
     "fullPrice": 880,
     "price": 815,
@@ -417,12 +447,13 @@
     "color": "coral",
     "ram": "3GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xr/coral/00.webp"
+    "image": "iphonexrcoral128gb.jpg"
   },
   {
     "id": 31,
     "category": "phones",
     "itemId": "apple-iphone-xs-64gb-gold",
+    "description": "IPhone X, XR and XS/XS Max. Apple also announced the iPhone X in September 2017. The iPhone X was the first iPhone to eliminate the physical Home button that was present on every preceding iPhone model, giving the device a touchscreen-only interface. Like the iPhone 8 and 8 Plus, the iPhone X used the A11 Bionic chip.The iPhone X featured an all-glass design and a 5.8-inch super Retina HD display, making it the largest iPhone in history at the time. The device also marked the debut of Face ID, a new way of authenticating user access through facial recognition technology. The iPhone X came in two storage options -- 64 GB and 256 GB.In September 2018, Apple announced three more iPhone X models. The iPhone XR was a budget version of the flagship phone that came with a larger 6.1-inch display. But the technology in the display had a lower resolution, Liquid Retina HD display that used LCD as opposed to the light-emitting diode, or OLED, Super Retina HD displays available in iPhone X and XS/XS Max displays. The XR used an upgraded A12 Bionic chip and boasted a battery life that was better than all other X models. The XR could be purchased with either 64 GB or 128 GB storage capacity.",
     "name": "Apple iPhone XS 64GB Gold",
     "fullPrice": 760,
     "price": 720,
@@ -431,12 +462,13 @@
     "color": "gold",
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs/gold/00.webp"
+    "image": "iphonexsgold64gb.jpg"
   },
   {
     "id": 32,
     "category": "phones",
     "itemId": "apple-iphone-xs-256gb-spacegray",
+    "description": "IPhone X, XR and XS/XS Max. Apple also announced the iPhone X in September 2017. The iPhone X was the first iPhone to eliminate the physical Home button that was present on every preceding iPhone model, giving the device a touchscreen-only interface. Like the iPhone 8 and 8 Plus, the iPhone X used the A11 Bionic chip.The iPhone X featured an all-glass design and a 5.8-inch super Retina HD display, making it the largest iPhone in history at the time. The device also marked the debut of Face ID, a new way of authenticating user access through facial recognition technology. The iPhone X came in two storage options -- 64 GB and 256 GB.In September 2018, Apple announced three more iPhone X models. The iPhone XR was a budget version of the flagship phone that came with a larger 6.1-inch display. But the technology in the display had a lower resolution, Liquid Retina HD display that used LCD as opposed to the light-emitting diode, or OLED, Super Retina HD displays available in iPhone X and XS/XS Max displays. The XR used an upgraded A12 Bionic chip and boasted a battery life that was better than all other X models. The XR could be purchased with either 64 GB or 128 GB storage capacity.",
     "name": "Apple iPhone XS 256GB Spacegray",
     "fullPrice": 960,
     "price": 900,
@@ -445,12 +477,13 @@
     "color": "spacegray",
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs/spacegray/00.webp"
+    "image": "iphonexsspacegray256gb.jpg"
   },
   {
     "id": 33,
     "category": "phones",
     "itemId": "apple-iphone-xs-max-64gb-silver",
+    "description": "IPhone X, XR and XS/XS Max. Apple also announced the iPhone X in September 2017. The iPhone X was the first iPhone to eliminate the physical Home button that was present on every preceding iPhone model, giving the device a touchscreen-only interface. Like the iPhone 8 and 8 Plus, the iPhone X used the A11 Bionic chip.The iPhone X featured an all-glass design and a 5.8-inch super Retina HD display, making it the largest iPhone in history at the time. The device also marked the debut of Face ID, a new way of authenticating user access through facial recognition technology. The iPhone X came in two storage options -- 64 GB and 256 GB.In September 2018, Apple announced three more iPhone X models. The iPhone XR was a budget version of the flagship phone that came with a larger 6.1-inch display. But the technology in the display had a lower resolution, Liquid Retina HD display that used LCD as opposed to the light-emitting diode, or OLED, Super Retina HD displays available in iPhone X and XS/XS Max displays. The XR used an upgraded A12 Bionic chip and boasted a battery life that was better than all other X models. The XR could be purchased with either 64 GB or 128 GB storage capacity.",
     "name": "Apple iPhone XS Max 64GB Silver",
     "fullPrice": 960,
     "price": 900,
@@ -459,12 +492,13 @@
     "color": "silver",
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs-max/silver/00.webp"
+    "image": "iphonexsmaxsilver64gb.jpg"
   },
   {
     "id": 34,
     "category": "phones",
     "itemId": "apple-iphone-xs-max-256gb-gold",
+    "description": "IPhone X, XR and XS/XS Max. Apple also announced the iPhone X in September 2017. The iPhone X was the first iPhone to eliminate the physical Home button that was present on every preceding iPhone model, giving the device a touchscreen-only interface. Like the iPhone 8 and 8 Plus, the iPhone X used the A11 Bionic chip.The iPhone X featured an all-glass design and a 5.8-inch super Retina HD display, making it the largest iPhone in history at the time. The device also marked the debut of Face ID, a new way of authenticating user access through facial recognition technology. The iPhone X came in two storage options -- 64 GB and 256 GB.In September 2018, Apple announced three more iPhone X models. The iPhone XR was a budget version of the flagship phone that came with a larger 6.1-inch display. But the technology in the display had a lower resolution, Liquid Retina HD display that used LCD as opposed to the light-emitting diode, or OLED, Super Retina HD displays available in iPhone X and XS/XS Max displays. The XR used an upgraded A12 Bionic chip and boasted a battery life that was better than all other X models. The XR could be purchased with either 64 GB or 128 GB storage capacity.",
     "name": "Apple iPhone XS Max 256GB Gold",
     "fullPrice": 1080,
     "price": 1000,
@@ -473,12 +507,13 @@
     "color": "gold",
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs-max/gold/00.webp"
+    "image": "iphonexsmaxgold256gb.jpg"
   },
   {
     "id": 35,
     "category": "phones",
     "itemId": "apple-iphone-7-32gb-rosegold",
+    "description": "IPhone 7 and 7 Plus. The iPhone 7 and 7 Plus, announced on Sept. 7, 2016, boasted Apple's first water- and dust-resistant casing. The devices, which came in 32 GB, 128 GB and 256 GB versions, also featured two 12-megapixel cameras and Apple's new four-core A10 Fusion processor.In a major design change, Apple eliminated the headphone jack in the iPhone 7 and 7 Plus, forcing users to either rely on wireless headphones or an adapter for the iPhone's Lightning port. The iPhone 7 and 7 Plus shipped with iOS 10, whose new features included Siri integration with third-party apps and expanded 3D Touch capabilities.",
     "name": "Apple iPhone 7 32GB Rosegold",
     "fullPrice": 400,
     "price": 375,
@@ -487,12 +522,13 @@
     "color": "rosegold",
     "ram": "2GB",
     "year": 2016,
-    "image": "img/phones/apple-iphone-7/rosegold/00.webp"
+    "image": "iphone7rosegold32gb.jpg"
   },
   {
     "id": 36,
     "category": "phones",
     "itemId": "apple-iphone-11-64gb-purple",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 64GB Purple",
     "fullPrice": 932,
     "price": 880,
@@ -501,12 +537,13 @@
     "color": "purple",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/purple/00.webp"
+    "image": "iphone11purple64gb.jpg"
   },
   {
     "id": 37,
     "category": "phones",
     "itemId": "apple-iphone-11-64gb-red",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 64GB Red",
     "fullPrice": 932,
     "price": 880,
@@ -515,12 +552,13 @@
     "color": "red",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/red/00.webp"
+    "image": "iphone11red64gb.jpg"
   },
   {
     "id": 38,
     "category": "phones",
     "itemId": "apple-iphone-11-128gb-black",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 128GB Black",
     "fullPrice": 1100,
     "price": 1050,
@@ -529,12 +567,13 @@
     "color": "black",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/black/00.webp"
+    "image": "iphone11black128gb.jpg"
   },
   {
     "id": 39,
     "category": "phones",
     "itemId": "apple-iphone-11-256gb-red",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 256GB Red",
     "fullPrice": 1172,
     "price": 1115,
@@ -543,12 +582,13 @@
     "color": "red",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/red/00.webp"
+    "image": "iphone11red256gb.jpg"
   },
   {
     "id": 40,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-64gb-midnightgreen",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro 64GB Midnight green",
     "fullPrice": 1312,
     "price": 1270,
@@ -557,12 +597,13 @@
     "color": "midnightgreen",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/midnightgreen/00.webp"
+    "image": "iphone11promidnightgreen64gb.jpg"
   },
   {
     "id": 41,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-256gb-silver",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro 256GB Silver",
     "fullPrice": 1640,
     "price": 1570,
@@ -571,12 +612,13 @@
     "color": "silver",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/silver/00.webp"
+    "image": "iphone11prosilver256gb.jpg"
   },
   {
     "id": 42,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-512gb-gold",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro 512GB Gold",
     "fullPrice": 1880,
     "price": 1780,
@@ -585,12 +627,13 @@
     "color": "gold",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro/gold/00.webp"
+    "image": "iphone11progold512gb.jpg"
   },
   {
     "id": 43,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-max-64gb-midnightgreen",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro Max 64GB Midnightgreen",
     "fullPrice": 1480,
     "price": 1400,
@@ -599,12 +642,13 @@
     "color": "midnightgreen",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/midnightgreen/00.webp"
+    "image": "iphone11promaxmidnightgreen64gb.jpg"
   },
   {
     "id": 44,
     "category": "phones",
     "itemId": "apple-iphone-11-pro-max-256gb-spacegray",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 Pro Max 256GB Spacegray",
     "fullPrice": 1776,
     "price": 1680,
@@ -613,12 +657,13 @@
     "color": "spacegray",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11-pro-max/spacegray/00.webp"
+    "image": "iphone11promaxspacegray256gb.jpg"
   },
   {
     "id": 45,
     "category": "phones",
     "itemId": "apple-iphone-xr-64gb-coral",
+    "description": "IPhone X, XR and XS/XS Max. Apple also announced the iPhone X in September 2017. The iPhone X was the first iPhone to eliminate the physical Home button that was present on every preceding iPhone model, giving the device a touchscreen-only interface. Like the iPhone 8 and 8 Plus, the iPhone X used the A11 Bionic chip.The iPhone X featured an all-glass design and a 5.8-inch super Retina HD display, making it the largest iPhone in history at the time. The device also marked the debut of Face ID, a new way of authenticating user access through facial recognition technology. The iPhone X came in two storage options -- 64 GB and 256 GB.In September 2018, Apple announced three more iPhone X models. The iPhone XR was a budget version of the flagship phone that came with a larger 6.1-inch display. But the technology in the display had a lower resolution, Liquid Retina HD display that used LCD as opposed to the light-emitting diode, or OLED, Super Retina HD displays available in iPhone X and XS/XS Max displays. The XR used an upgraded A12 Bionic chip and boasted a battery life that was better than all other X models. The XR could be purchased with either 64 GB or 128 GB storage capacity.",
     "name": "Apple iPhone XR 64GB Coral",
     "fullPrice": 712,
     "price": 670,
@@ -627,12 +672,13 @@
     "color": "coral",
     "ram": "3GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xr/coral/00.webp"
+    "image": "iphonexrcoral64gb.jpg"
   },
   {
     "id": 46,
     "category": "phones",
     "itemId": "apple-iphone-xr-128gb-red",
+    "description": "IPhone X, XR and XS/XS Max. Apple also announced the iPhone X in September 2017. The iPhone X was the first iPhone to eliminate the physical Home button that was present on every preceding iPhone model, giving the device a touchscreen-only interface. Like the iPhone 8 and 8 Plus, the iPhone X used the A11 Bionic chip.The iPhone X featured an all-glass design and a 5.8-inch super Retina HD display, making it the largest iPhone in history at the time. The device also marked the debut of Face ID, a new way of authenticating user access through facial recognition technology. The iPhone X came in two storage options -- 64 GB and 256 GB.In September 2018, Apple announced three more iPhone X models. The iPhone XR was a budget version of the flagship phone that came with a larger 6.1-inch display. But the technology in the display had a lower resolution, Liquid Retina HD display that used LCD as opposed to the light-emitting diode, or OLED, Super Retina HD displays available in iPhone X and XS/XS Max displays. The XR used an upgraded A12 Bionic chip and boasted a battery life that was better than all other X models. The XR could be purchased with either 64 GB or 128 GB storage capacity.",
     "name": "Apple iPhone XR 128GB Red",
     "fullPrice": 880,
     "price": 815,
@@ -641,12 +687,13 @@
     "color": "red",
     "ram": "3GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xr/red/00.webp"
+    "image": "iphonexrred128gb.jpg"
   },
   {
     "id": 47,
     "category": "phones",
     "itemId": "apple-iphone-xs-256gb-gold",
+    "description": "IPhone X, XR and XS/XS Max. Apple also announced the iPhone X in September 2017. The iPhone X was the first iPhone to eliminate the physical Home button that was present on every preceding iPhone model, giving the device a touchscreen-only interface. Like the iPhone 8 and 8 Plus, the iPhone X used the A11 Bionic chip.The iPhone X featured an all-glass design and a 5.8-inch super Retina HD display, making it the largest iPhone in history at the time. The device also marked the debut of Face ID, a new way of authenticating user access through facial recognition technology. The iPhone X came in two storage options -- 64 GB and 256 GB.In September 2018, Apple announced three more iPhone X models. The iPhone XR was a budget version of the flagship phone that came with a larger 6.1-inch display. But the technology in the display had a lower resolution, Liquid Retina HD display that used LCD as opposed to the light-emitting diode, or OLED, Super Retina HD displays available in iPhone X and XS/XS Max displays. The XR used an upgraded A12 Bionic chip and boasted a battery life that was better than all other X models. The XR could be purchased with either 64 GB or 128 GB storage capacity.",
     "name": "Apple iPhone XS 256GB Gold",
     "fullPrice": 960,
     "price": 900,
@@ -655,12 +702,13 @@
     "color": "gold",
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs/gold/00.webp"
+    "image": "iphonexsgold256gb.jpg"
   },
   {
     "id": 48,
     "category": "phones",
     "itemId": "apple-iphone-xs-max-64gb-spacegray",
+    "description": "IPhone X, XR and XS/XS Max. Apple also announced the iPhone X in September 2017. The iPhone X was the first iPhone to eliminate the physical Home button that was present on every preceding iPhone model, giving the device a touchscreen-only interface. Like the iPhone 8 and 8 Plus, the iPhone X used the A11 Bionic chip.The iPhone X featured an all-glass design and a 5.8-inch super Retina HD display, making it the largest iPhone in history at the time. The device also marked the debut of Face ID, a new way of authenticating user access through facial recognition technology. The iPhone X came in two storage options -- 64 GB and 256 GB.In September 2018, Apple announced three more iPhone X models. The iPhone XR was a budget version of the flagship phone that came with a larger 6.1-inch display. But the technology in the display had a lower resolution, Liquid Retina HD display that used LCD as opposed to the light-emitting diode, or OLED, Super Retina HD displays available in iPhone X and XS/XS Max displays. The XR used an upgraded A12 Bionic chip and boasted a battery life that was better than all other X models. The XR could be purchased with either 64 GB or 128 GB storage capacity.",
     "name": "Apple iPhone XS Max 64GB Spacegray",
     "fullPrice": 960,
     "price": 900,
@@ -669,12 +717,13 @@
     "color": "spacegray",
     "ram": "4GB",
     "year": 2018,
-    "image": "img/phones/apple-iphone-xs-max/spacegray/00.webp"
+    "image": "iphonexsmaxspacegray64gb.jpg"
   },
   {
     "id": 49,
     "category": "phones",
     "itemId": "apple-iphone-7-plus-32gb-rosegold",
+    "description": "IPhone 7 and 7 Plus. The iPhone 7 and 7 Plus, announced on Sept. 7, 2016, boasted Apple's first water- and dust-resistant casing. The devices, which came in 32 GB, 128 GB and 256 GB versions, also featured two 12-megapixel cameras and Apple's new four-core A10 Fusion processor.In a major design change, Apple eliminated the headphone jack in the iPhone 7 and 7 Plus, forcing users to either rely on wireless headphones or an adapter for the iPhone's Lightning port. The iPhone 7 and 7 Plus shipped with iOS 10, whose new features included Siri integration with third-party apps and expanded 3D Touch capabilities.",
     "name": "Apple iPhone 7 Plus 32GB Rosegold",
     "fullPrice": 540,
     "price": 500,
@@ -683,12 +732,13 @@
     "color": "rosegold",
     "ram": "3GB",
     "year": 2016,
-    "image": "img/phones/apple-iphone-7-plus/rosegold/00.webp"
+    "image": "iphone7plusrosegold2gb.jpg"
   },
   {
     "id": 50,
     "category": "phones",
     "itemId": "apple-iphone-11-64gb-white",
+    "description": "IPhone 11, 11 Pro and 11 Pro Max. Released on Sept. 20, 2019, the iPhone 11, 11 Pro and 11 Pro Max are the successors to the iPhone XR, XS and XS Max, respectively. One major advancement of the iPhone 11 series of smartphones is the inclusion of a Wi-Fi 6 wireless chip for improved speeds using the IEEE 802.11ax Wi-Fi 6 standard. Another advantage is the infusion of an upgraded 12-megapixel TrueDepth front camera.The iPhone 11 continued the use of the slightly lower quality 6.1-inch LCD display found in the iPhone XR. However, many iPhone 11 enhancements were made over the XR, including an upgraded A13 Bionic chip, a rear camera with 2x optical zoom and ultra-wide lens, improved battery life, improved water resistance and a 256 GB storage capacity option.The iPhone 11 Pro also makes significant strides over the iPhone XS. Perhaps the most famous is the three-lens rear-facing camera that Apple put into iPhones for the first time. Other advantages over the XS model include an upgraded A13 Bionic chip, Super Retina XDR display, ultra-wide-angle photo capabilities and up to 4x optical zoom, four additional hours of battery life and improved water resistance up to 4 meters for 30 minutes.",
     "name": "Apple iPhone 11 64GB White",
     "fullPrice": 932,
     "price": 880,
@@ -697,12 +747,13 @@
     "color": "white",
     "ram": "4GB",
     "year": 2019,
-    "image": "img/phones/apple-iphone-11/white/00.webp"
+    "image": "iphone11white64gb.jpg"
   },
   {
     "id": 121,
     "category": "accessories",
     "itemId": "apple-watch-series-3-38mm-space-gray",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 3 38mm Space Gray",
     "fullPrice": 199,
     "price": 169,
@@ -711,12 +762,13 @@
     "color": "space gray",
     "ram": "768MB",
     "year": 2017,
-    "image": "img/accessories/apple-watch-series-3/space-gray/00.webp"
+    "image": "applewatchseries3spacegray38mm.jpg"
   },
   {
     "id": 122,
     "category": "accessories",
     "itemId": "apple-watch-series-3-42mm-space-gray",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 3 42mm Space Gray",
     "fullPrice": 250,
     "price": 219,
@@ -725,12 +777,13 @@
     "color": "space gray",
     "ram": "768MB",
     "year": 2017,
-    "image": "img/accessories/apple-watch-series-3/space-gray/00.webp"
+    "image": "applewatchseries3spacegray42mm.jpg"
   },
   {
     "id": 123,
     "category": "accessories",
     "itemId": "apple-watch-series-3-38mm-gold",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 3 38mm Gold",
     "fullPrice": 199,
     "price": 169,
@@ -739,12 +792,13 @@
     "color": "gold",
     "ram": "768MB",
     "year": 2017,
-    "image": "img/accessories/apple-watch-series-3/gold/00.webp"
+    "image": "applewatchseries3gold38mm.jpg"
   },
   {
     "id": 124,
     "category": "accessories",
     "itemId": "apple-watch-series-3-42mm-gold",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 3 42mm Gold",
     "fullPrice": 250,
     "price": 219,
@@ -753,12 +807,13 @@
     "color": "gold",
     "ram": "768MB",
     "year": 2017,
-    "image": "img/accessories/apple-watch-series-3/gold/00.webp"
+    "image": "applewatchseries3gold42mm.jpg"
   },
   {
     "id": 125,
     "category": "accessories",
     "itemId": "apple-watch-series-3-38mm-silver",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 3 38mm Silver",
     "fullPrice": 199,
     "price": 169,
@@ -767,12 +822,13 @@
     "color": "silver",
     "ram": "768MB",
     "year": 2017,
-    "image": "img/accessories/apple-watch-series-3/silver/00.webp"
+    "image": "applewatchseries3silver38mm.jpg"
   },
   {
     "id": 126,
     "category": "accessories",
     "itemId": "apple-watch-series-3-42mm-silver",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 3 42mm Silver",
     "fullPrice": 250,
     "price": 219,
@@ -781,12 +837,13 @@
     "color": "silver",
     "ram": "768MB",
     "year": 2017,
-    "image": "img/accessories/apple-watch-series-3/silver/00.webp"
+    "image": "applewatchseries3silver42mm.jpg"
   },
   {
     "id": 127,
     "category": "accessories",
     "itemId": "apple-watch-series-6-40mm-space-gray",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 6 40mm Space Gray",
     "fullPrice": 399,
     "price": 329,
@@ -795,12 +852,13 @@
     "color": "space gray",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-series-6/space-gray/00.webp"
+    "image": "applewatchseries6spacegray40mm.jpg"
   },
   {
     "id": 128,
     "category": "accessories",
     "itemId": "apple-watch-series-6-44mm-space-gray",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 6 44mm Space Gray",
     "fullPrice": 429,
     "price": 359,
@@ -809,12 +867,13 @@
     "color": "space gray",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-series-6/space-gray/00.webp"
+    "image": "applewatchseries6spacegray44mm.jpg"
   },
   {
     "id": 129,
     "category": "accessories",
     "itemId": "apple-watch-series-6-40mm-silver",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 6 40mm Silver",
     "fullPrice": 399,
     "price": 329,
@@ -823,12 +882,13 @@
     "color": "silver",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-series-6/silver/00.webp"
+    "image": "applewatchseries6silver40mm.jpg"
   },
   {
     "id": 130,
     "category": "accessories",
     "itemId": "apple-watch-series-6-44mm-silver",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 6 44mm Silver",
     "fullPrice": 429,
     "price": 359,
@@ -837,12 +897,13 @@
     "color": "silver",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-series-6/silver/00.webp"
+    "image": "applewatchseries6silver44mm.jpg"
   },
   {
     "id": 131,
     "category": "accessories",
     "itemId": "apple-watch-series-6-40mm-gold",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 6 40mm Gold",
     "fullPrice": 399,
     "price": 329,
@@ -851,12 +912,13 @@
     "color": "gold",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-series-6/gold/00.webp"
+    "image": "applewatchseries6gold40mm.jpg"
   },
   {
     "id": 132,
     "category": "accessories",
     "itemId": "apple-watch-series-6-44mm-gold",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 6 44mm Gold",
     "fullPrice": 429,
     "price": 359,
@@ -865,12 +927,13 @@
     "color": "gold",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-series-6/gold/00.webp"
+    "image": "applewatchseries6gold44mm.jpg"
   },
   {
     "id": 133,
     "category": "accessories",
     "itemId": "apple-watch-series-6-40mm-blue",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 6 40mm Blue",
     "fullPrice": 399,
     "price": 329,
@@ -879,12 +942,13 @@
     "color": "blue",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-series-6/blue/00.webp"
+    "image": "applewatchseries6blue40mm.jpg"
   },
   {
     "id": 134,
     "category": "accessories",
     "itemId": "apple-watch-series-6-44mm-blue",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 6 44mm Blue",
     "fullPrice": 429,
     "price": 359,
@@ -893,12 +957,13 @@
     "color": "blue",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-series-6/blue/00.webp"
+    "image": "applewatchseries6blue44mm.jpg"
   },
   {
     "id": 135,
     "category": "accessories",
     "itemId": "apple-watch-series-6-40mm-red",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 6 40mm Red",
     "fullPrice": 399,
     "price": 329,
@@ -907,12 +972,13 @@
     "color": "red",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-series-6/red/00.webp"
+    "image": "applewatchseries6red40mm.jpg"
   },
   {
     "id": 136,
     "category": "accessories",
     "itemId": "apple-watch-series-6-44mm-red",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 6 44mm Red",
     "fullPrice": 429,
     "price": 359,
@@ -921,12 +987,13 @@
     "color": "red",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-series-6/red/00.webp"
+    "image": "applewatchseries6red44mm.jpg"
   },
   {
     "id": 137,
     "category": "accessories",
     "itemId": "apple-watch-series-5-40mm-silver",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 5 40mm Silver",
     "fullPrice": 399,
     "price": 299,
@@ -935,12 +1002,13 @@
     "color": "silver",
     "ram": "1GB",
     "year": 2019,
-    "image": "img/accessories/apple-watch-series-5/silver/00.webp"
+    "image": "applewatchseries5silver40mm.jpg"
   },
   {
     "id": 138,
     "category": "accessories",
     "itemId": "apple-watch-series-5-44mm-silver",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 5 44mm Silver",
     "fullPrice": 429,
     "price": 399,
@@ -949,12 +1017,13 @@
     "color": "silver",
     "ram": "1GB",
     "year": 2019,
-    "image": "img/accessories/apple-watch-series-5/silver/00.webp"
+    "image": "applewatchseries5silver44mm.jpg"
   },
   {
     "id": 139,
     "category": "accessories",
     "itemId": "apple-watch-series-5-40mm-gold",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 5 40mm Gold",
     "fullPrice": 399,
     "price": 299,
@@ -963,12 +1032,13 @@
     "color": "gold",
     "ram": "1GB",
     "year": 2019,
-    "image": "img/accessories/apple-watch-series-5/gold/00.webp"
+    "image": "applewatchseries5gold40mm.jpg"
   },
   {
     "id": 140,
     "category": "accessories",
     "itemId": "apple-watch-series-5-44mm-gold",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 5 44mm Gold",
     "fullPrice": 429,
     "price": 399,
@@ -977,12 +1047,13 @@
     "color": "gold",
     "ram": "1GB",
     "year": 2019,
-    "image": "img/accessories/apple-watch-series-5/gold/00.webp"
+    "image": "applewatchseries5gold44mm.jpg"
   },
   {
     "id": 141,
     "category": "accessories",
     "itemId": "apple-watch-series-5-40mm-space-gray",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 5 40mm Space Gray",
     "fullPrice": 399,
     "price": 299,
@@ -991,12 +1062,13 @@
     "color": "space-gray",
     "ram": "1GB",
     "year": 2019,
-    "image": "img/accessories/apple-watch-series-5/space-gray/00.webp"
+    "image": "applewatchseries5spacegray40mm.jpg"
   },
   {
     "id": 142,
     "category": "accessories",
     "itemId": "apple-watch-series-5-44mm-space-gray",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 5 44mm Space Gray",
     "fullPrice": 429,
     "price": 399,
@@ -1005,12 +1077,13 @@
     "color": "space-gray",
     "ram": "1GB",
     "year": 2019,
-    "image": "img/accessories/apple-watch-series-5/space-gray/00.webp"
+    "image": "applewatchseries5spacegray44mm.jpg"
   },
   {
     "id": 143,
     "category": "accessories",
     "itemId": "apple-watch-series-4-40mm-silver",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 4 40mm Silver",
     "fullPrice": 399,
     "price": 349,
@@ -1019,12 +1092,13 @@
     "color": "silver",
     "ram": "0.75GB",
     "year": 2019,
-    "image": "img/accessories/apple-watch-series-4/silver/00.webp"
+    "image": "applewatchseries4silver40mm.jpg"
   },
   {
     "id": 144,
     "category": "accessories",
     "itemId": "apple-watch-series-4-44mm-silver",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 4 44mm Silver",
     "fullPrice": 429,
     "price": 379,
@@ -1033,12 +1107,13 @@
     "color": "silver",
     "ram": "0.75GB",
     "year": 2019,
-    "image": "img/accessories/apple-watch-series-4/silver/00.webp"
+    "image": "applewatchseries4silver44mm.jpg"
   },
   {
     "id": 145,
     "category": "accessories",
     "itemId": "apple-watch-series-4-40mm-gold",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 4 40mm Gold",
     "fullPrice": 399,
     "price": 349,
@@ -1047,12 +1122,13 @@
     "color": "gold",
     "ram": "0.75GB",
     "year": 2019,
-    "image": "img/accessories/apple-watch-series-4/gold/00.webp"
+    "image": "applewatchseries4gold40mm.jpg"
   },
   {
     "id": 146,
     "category": "accessories",
     "itemId": "apple-watch-series-4-44mm-gold",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 4 44mm Gold",
     "fullPrice": 429,
     "price": 379,
@@ -1061,12 +1137,13 @@
     "color": "gold",
     "ram": "0.75GB",
     "year": 2019,
-    "image": "img/accessories/apple-watch-series-4/gold/00.webp"
+    "image": "applewatchseries4gold44mm.jpg"
   },
   {
     "id": 147,
     "category": "accessories",
     "itemId": "apple-watch-series-4-40mm-space-gray",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 4 40mm Space Gray",
     "fullPrice": 399,
     "price": 349,
@@ -1075,12 +1152,13 @@
     "color": "space-gray",
     "ram": "0.75GB",
     "year": 2019,
-    "image": "img/accessories/apple-watch-series-4/space-gray/00.webp"
+    "image": "applewatchseries4spacegray40mm.jpg"
   },
   {
     "id": 148,
     "category": "accessories",
     "itemId": "apple-watch-series-4-44mm-space-gray",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch Series 4 44mm Space Gray",
     "fullPrice": 429,
     "price": 379,
@@ -1089,12 +1167,13 @@
     "color": "space-gray",
     "ram": "0.75GB",
     "year": 2019,
-    "image": "img/accessories/apple-watch-series-4/space-gray/00.webp"
+    "image": "applewatchseries4spacegray44mm.jpg"
   },
   {
     "id": 149,
     "category": "accessories",
     "itemId": "apple-watch-se-40mm-silver",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch SE 40mm Silver",
     "fullPrice": 279,
     "price": 249,
@@ -1103,12 +1182,13 @@
     "color": "silver",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-se/silver/00.webp"
+    "image": "applewatchsesilver40mm.jpg"
   },
   {
     "id": 150,
     "category": "accessories",
     "itemId": "apple-watch-se-44mm-silver",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch SE 44mm Silver",
     "fullPrice": 309,
     "price": 279,
@@ -1117,12 +1197,13 @@
     "color": "silver",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-se/silver/00.webp"
+    "image": "applewatchsesilver44mm.jpg"
   },
   {
     "id": 151,
     "category": "accessories",
     "itemId": "apple-watch-se-40mm-gold",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch SE 40mm Gold",
     "fullPrice": 279,
     "price": 259,
@@ -1131,12 +1212,13 @@
     "color": "gold",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-se/gold/00.webp"
+    "image": "applewatchsegold40mm.jpg"
   },
   {
     "id": 152,
     "category": "accessories",
     "itemId": "apple-watch-se-44mm-gold",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch SE 44mm Gold",
     "fullPrice": 309,
     "price": 289,
@@ -1145,12 +1227,13 @@
     "color": "gold",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-se/gold/00.webp"
+    "image": "applewatchsegold44mm.jpg"
   },
   {
     "id": 153,
     "category": "accessories",
     "itemId": "apple-watch-se-40mm-space-gray",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch SE 40mm Space Gray",
     "fullPrice": 279,
     "price": 259,
@@ -1159,12 +1242,13 @@
     "color": "space gray",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-se/space-gray/00.webp"
+    "image": "applewatchsespacegray40mm.jpg"
   },
   {
     "id": 154,
     "category": "accessories",
     "itemId": "apple-watch-se-44mm-space-gray",
+    "description": "Apple Watch is a wearable smartwatch that allows users to accomplish a variety of tasks, including making phone calls, sending text messages and reading email. Apple released the Apple Watch on April 24, 2015.Apple initially designed the watch to replace phones and reduce the time users spend looking at phone screens. However, the Apple Watch became popular in part for its innovations in fitness tracking and health monitoring, as well as its ability to be used with internet of things (IoT) devices.Since its release, the Apple Watch has added several new features, including water resistance, blood oxygen and electrocardiogram (ECG) readings, a body temperature sensor and an emergency SOS that can detect when a user falls or has some other accident and contact emergency services. The watches can be synced with a user's iPhone, Mac laptop and AirPods. Apple Watches accounted for 43% of smartwatch shipments in the fourth quarter of 2022, dominating that market, according to research firm Counterpoint.",
     "name": "Apple Watch SE 44mm Space Gray",
     "fullPrice": 309,
     "price": 289,
@@ -1173,18 +1257,19 @@
     "color": "space gray",
     "ram": "1GB",
     "year": 2020,
-    "image": "img/accessories/apple-watch-se/space-gray/00.webp"
+    "image": "applewatchsespacegray44mm.jpg"
   },
   {
     "id": 155,
     "category": "tablets",
     "itemId": "apple-ipad-pro-11-2021-128gb-spacegray",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Pro 11 (2021) 128GB Space Gray",
     "capacity": "128GB",
     "fullPrice": 799,
     "price": 749,
     "color": "spacegray",
-    "image": "img/tablets/apple-ipad-pro-11-2021/spacegray/00.webp",
+    "image": "ipadpro11spacegray128gb.jpg",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
     "year": 2021
@@ -1193,12 +1278,13 @@
     "id": 156,
     "category": "tablets",
     "itemId": "apple-ipad-pro-11-2021-128gb-silver",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Pro 11 (2021) 128GB Silver",
     "capacity": "128GB",
     "fullPrice": 799,
     "price": 749,
     "color": "spacegray",
-    "image": "img/tablets/apple-ipad-pro-11-2021/silver/00.webp",
+    "image": "ipadpro11silver128gb.jpg",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
     "year": 2021
@@ -1207,12 +1293,13 @@
     "id": 157,
     "category": "tablets",
     "itemId": "apple-ipad-pro-11-2021-256gb-spacegray",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Pro 11 (2021) 256GB Space Gray",
     "capacity": "256GB",
     "fullPrice": 829,
     "price": 799,
     "color": "spacegray",
-    "image": "img/tablets/apple-ipad-pro-11-2021/spacegray/00.webp",
+    "image": "ipadpro11spacegray256gb.jpg",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
     "year": 2021
@@ -1221,12 +1308,13 @@
     "id": 158,
     "category": "tablets",
     "itemId": "apple-ipad-pro-11-2021-256gb-silver",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Pro 11 (2021) 256GB Silver",
     "capacity": "256GB",
     "fullPrice": 829,
     "price": 799,
     "color": "spacegray",
-    "image": "img/tablets/apple-ipad-pro-11-2021/silver/00.webp",
+    "image": "ipadpro11silver256gb.jpg",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
     "year": 2021
@@ -1235,12 +1323,13 @@
     "id": 159,
     "category": "tablets",
     "itemId": "apple-ipad-pro-11-2021-512gb-spacegray",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Pro 11 (2021) 512GB Space Gray",
     "capacity": "512GB",
     "fullPrice": 869,
     "price": 819,
     "color": "spacegray",
-    "image": "img/tablets/apple-ipad-pro-11-2021/spacegray/00.webp",
+    "image": "ipadpro11spacegray512gb.jpg",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
     "year": 2021
@@ -1249,12 +1338,13 @@
     "id": 160,
     "category": "tablets",
     "itemId": "apple-ipad-pro-11-2021-512gb-silver",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Pro 11 (2021) 512GB Silver",
     "capacity": "512GB",
     "fullPrice": 869,
     "price": 819,
     "color": "silver",
-    "image": "img/tablets/apple-ipad-pro-11-2021/silver/00.webp",
+    "image": "ipadpro11silver512gb.jpg",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
     "year": 2021
@@ -1263,12 +1353,13 @@
     "id": 161,
     "category": "tablets",
     "itemId": "apple-ipad-pro-11-2021-1tb-spacegray",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Pro 11 (2021) 1TB Space Gray",
     "capacity": "1TB",
     "fullPrice": 899,
     "price": 879,
     "color": "spacegray",
-    "image": "img/tablets/apple-ipad-pro-11-2021/spacegray/00.webp",
+    "image": "ipadpro11spacegray1tb.jpg",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
     "year": 2021
@@ -1277,12 +1368,13 @@
     "id": 162,
     "category": "tablets",
     "itemId": "apple-ipad-pro-11-2021-1tb-silver",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Pro 11 (2021) 1TB Silver",
     "capacity": "1TB",
     "fullPrice": 899,
     "price": 879,
     "color": "silver",
-    "image": "img/tablets/apple-ipad-pro-11-2021/silver/00.webp",
+    "image": "ipadpro11silver1tb.jpg",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
     "year": 2021
@@ -1291,12 +1383,13 @@
     "id": 163,
     "category": "tablets",
     "itemId": "apple-ipad-pro-11-2021-2tb-spacegray",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Pro 11 (2021) 2TB Space Gray",
     "capacity": "2TB",
     "fullPrice": 999,
     "price": 939,
     "color": "spacegray",
-    "image": "img/tablets/apple-ipad-pro-11-2021/spacegray/00.webp",
+    "image": "ipadpro11spacegray2tb.jpg",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
     "year": 2021
@@ -1305,12 +1398,13 @@
     "id": 164,
     "category": "tablets",
     "itemId": "apple-ipad-pro-11-2021-2tb-silver",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Pro 11 (2021) 2TB Silver",
     "capacity": "2TB",
     "fullPrice": 999,
     "price": 939,
     "color": "silver",
-    "image": "img/tablets/apple-ipad-pro-11-2021/silver/00.webp",
+    "image": "ipadpro11silver2tb.jpg",
     "screen": "11' Liquid Retina",
     "ram": "8GB",
     "year": 2021
@@ -1319,12 +1413,13 @@
     "id": 165,
     "category": "tablets",
     "itemId": "apple-ipad-air-4th-gen-256gb-rose-gold",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Air (4th Gen) 256GB Rose Gold",
     "capacity": "256GB",
     "fullPrice": 749,
     "price": 699,
     "color": "rose gold",
-    "image": "img/tablets/apple-ipad-air-4th-gen/rose-gold/00.webp",
+    "image": "ipadair4genrosegold256gb.jpg",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
     "year": 2020
@@ -1333,12 +1428,13 @@
     "id": 166,
     "category": "tablets",
     "itemId": "apple-ipad-air-4th-gen-64gb-rose-gold",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Air (4th Gen) 64GB Rose Gold",
     "capacity": "64GB",
     "fullPrice": 599,
     "price": 549,
     "color": "rose gold",
-    "image": "img/tablets/apple-ipad-air-4th-gen/rose-gold/00.webp",
+    "image": "ipadair4genrosegold64gb.jpg",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
     "year": 2020
@@ -1347,12 +1443,13 @@
     "id": 167,
     "category": "tablets",
     "itemId": "apple-ipad-air-4th-gen-256gb-silver",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Air (4th Gen) 256GB Silver",
     "capacity": "256GB",
     "fullPrice": 749,
     "price": 699,
     "color": "silver",
-    "image": "img/tablets/apple-ipad-air-4th-gen/silver/00.webp",
+    "image": "ipadair4gensilver256gb.jpg",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
     "year": 2020
@@ -1361,12 +1458,13 @@
     "id": 168,
     "category": "tablets",
     "itemId": "apple-ipad-air-4th-gen-64gb-silver",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Air (4th Gen) 64GB Silver",
     "capacity": "64GB",
     "fullPrice": 599,
     "price": 549,
     "color": "silver",
-    "image": "img/tablets/apple-ipad-air-4th-gen/silver/00.webp",
+    "image": "ipadair4gensilver64gb.jpg",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
     "year": 2020
@@ -1375,12 +1473,13 @@
     "id": 169,
     "category": "tablets",
     "itemId": "apple-ipad-air-4th-gen-256gb-green",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Air (4th Gen) 256GB Green",
     "capacity": "256GB",
     "fullPrice": 749,
     "price": 699,
     "color": "green",
-    "image": "img/tablets/apple-ipad-air-4th-gen/green/00.webp",
+    "image": "ipadair4gengreen256gb.jpg",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
     "year": 2020
@@ -1389,12 +1488,13 @@
     "id": 170,
     "category": "tablets",
     "itemId": "apple-ipad-air-4th-gen-64gb-green",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Air (4th Gen) 64GB Green",
     "capacity": "64GB",
     "fullPrice": 599,
     "price": 549,
     "color": "green",
-    "image": "img/tablets/apple-ipad-air-4th-gen/green/00.webp",
+    "image": "ipadair4gengreen64gb.jpg",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
     "year": 2020
@@ -1403,12 +1503,13 @@
     "id": 171,
     "category": "tablets",
     "itemId": "apple-ipad-air-4th-gen-256gb-sky-blue",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Air (4th Gen) 256GB Sky Blue",
     "capacity": "256GB",
     "fullPrice": 749,
     "price": 699,
     "color": "sky-blue",
-    "image": "img/tablets/apple-ipad-air-4th-gen/sky-blue/00.webp",
+    "image": "ipadair4genskyblue256gb.jpg",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
     "year": 2020
@@ -1417,12 +1518,13 @@
     "id": 172,
     "category": "tablets",
     "itemId": "apple-ipad-air-4th-gen-64gb-sky-blue",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Air (4th Gen) 64GB Sky Blue",
     "capacity": "64GB",
     "fullPrice": 599,
     "price": 549,
     "color": "sky-blue",
-    "image": "img/tablets/apple-ipad-air-4th-gen/sky-blue/00.webp",
+    "image": "ipadair4genskyblue64gb.jpg",
     "screen": "10.9' Liquid Retina",
     "ram": "4GB",
     "year": 2020
@@ -1431,12 +1533,13 @@
     "id": 173,
     "category": "tablets",
     "itemId": "apple-ipad-mini-6th-gen-256gb-spacegray",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Mini (6th Gen) 256GB Space Gray",
     "capacity": "256GB",
     "fullPrice": 649,
     "price": 599,
     "color": "spacegray",
-    "image": "img/tablets/apple-ipad-mini-6th-gen/spacegray/00.webp",
+    "image": "ipadmini6genspacegray256gb.jpg",
     "screen": "8.3' Liquid Retina",
     "ram": "4GB",
     "year": 2021
@@ -1445,12 +1548,13 @@
     "id": 174,
     "category": "tablets",
     "itemId": "apple-ipad-mini-6th-gen-64gb-spacegray",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Mini (6th Gen) 64GB Space Gray",
     "capacity": "64GB",
     "fullPrice": 499,
     "price": 469,
     "color": "spacegray",
-    "image": "img/tablets/apple-ipad-mini-6th-gen/spacegray/00.webp",
+    "image": "ipadmini6genspacegray64gb.jpg",
     "screen": "8.3' Liquid Retina",
     "ram": "4GB",
     "year": 2021
@@ -1459,12 +1563,13 @@
     "id": 175,
     "category": "tablets",
     "itemId": "apple-ipad-mini-6th-gen-256gb-starlight",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Mini (6th Gen) 256GB Starlight",
     "capacity": "256GB",
     "fullPrice": 649,
     "price": 599,
     "color": "starlight",
-    "image": "img/tablets/apple-ipad-mini-6th-gen/starlight/00.webp",
+    "image": "ipadmini6genstarlight256gbb.jpg",
     "screen": "8.3' Liquid Retina",
     "ram": "4GB",
     "year": 2021
@@ -1473,12 +1578,13 @@
     "id": 176,
     "category": "tablets",
     "itemId": "apple-ipad-mini-6th-gen-64gb-starlight",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Mini (6th Gen) 64GB Starlight",
     "capacity": "64GB",
     "fullPrice": 499,
     "price": 469,
     "color": "starlight",
-    "image": "img/tablets/apple-ipad-mini-6th-gen/starlight/00.webp",
+    "image": "ipadmini6genstarlight64gb.jpg",
     "screen": "8.3' Liquid Retina",
     "ram": "4GB",
     "year": 2021
@@ -1487,12 +1593,13 @@
     "id": 177,
     "category": "tablets",
     "itemId": "apple-ipad-mini-6th-gen-256gb-pink",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Mini (6th Gen) 256GB Pink",
     "capacity": "256GB",
     "fullPrice": 649,
     "price": 599,
     "color": "pink",
-    "image": "img/tablets/apple-ipad-mini-6th-gen/pink/00.webp",
+    "image": "ipadair4genpink256gb.jpg",
     "screen": "8.3' Liquid Retina",
     "ram": "4GB",
     "year": 2021
@@ -1501,12 +1608,13 @@
     "id": 178,
     "category": "tablets",
     "itemId": "apple-ipad-mini-6th-gen-64gb-pink",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Mini (6th Gen) 64GB Pink",
     "capacity": "64GB",
     "fullPrice": 499,
     "price": 469,
     "color": "pink",
-    "image": "img/tablets/apple-ipad-mini-6th-gen/pink/00.webp",
+    "image": "ipadair4genpink64gb.jpg",
     "screen": "8.3' Liquid Retina",
     "ram": "4GB",
     "year": 2021
@@ -1515,12 +1623,13 @@
     "id": 179,
     "category": "tablets",
     "itemId": "apple-ipad-10-2-2020-128gb-gold",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad 10.2 (2020) 128GB Gold",
     "capacity": "128GB",
     "fullPrice": 429,
     "price": 399,
     "color": "gold",
-    "image": "img/tablets/apple-ipad-10-2-2020/gold/00.webp",
+    "image": "ipad10gold128gb.jpg",
     "screen": "10.2' Retina",
     "ram": "3GB",
     "year": 2020
@@ -1529,12 +1638,13 @@
     "id": 180,
     "category": "tablets",
     "itemId": "apple-ipad-10-2-2020-32gb-gold",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad 10.2 (2020) 32GB Gold",
     "capacity": "32GB",
     "fullPrice": 329,
     "price": 299,
     "color": "gold",
-    "image": "img/tablets/apple-ipad-10-2-2020/gold/00.webp",
+    "image": "ipad10gold32gb.jpg",
     "screen": "10.2' Retina",
     "ram": "3GB",
     "year": 2020
@@ -1543,12 +1653,13 @@
     "id": 181,
     "category": "tablets",
     "itemId": "apple-ipad-10-2-2020-128gb-silver",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad 10.2 (2020) 128GB Silver",
     "capacity": "128GB",
     "fullPrice": 429,
     "price": 399,
     "color": "silver",
-    "image": "img/tablets/apple-ipad-10-2-2020/silver/00.webp",
+    "image": "ipad10silver128gb.jpg",
     "screen": "10.2' Retina",
     "ram": "3GB",
     "year": 2020
@@ -1557,12 +1668,13 @@
     "id": 182,
     "category": "tablets",
     "itemId": "apple-ipad-10-2-2020-32gb-silver",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad 10.2 (2020) 32GB Silver",
     "capacity": "32GB",
     "fullPrice": 329,
     "price": 299,
     "color": "silver",
-    "image": "img/tablets/apple-ipad-10-2-2020/silver/00.webp",
+    "image": "ipad10silver32gb.jpg",
     "screen": "10.2' Retina",
     "ram": "3GB",
     "year": 2020
@@ -1571,12 +1683,13 @@
     "id": 183,
     "category": "tablets",
     "itemId": "apple-ipad-10-2-2020-128gb-spacegray",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad 10.2 (2020) 128GB Space Gray",
     "capacity": "128GB",
     "fullPrice": 429,
     "price": 399,
     "color": "spacegray",
-    "image": "img/tablets/apple-ipad-10-2-2020/spacegray/00.webp",
+    "image": "ipad10spacegray128gb.jpg",
     "screen": "10.2' Retina",
     "ram": "3GB",
     "year": 2020
@@ -1585,12 +1698,13 @@
     "id": 184,
     "category": "tablets",
     "itemId": "apple-ipad-10-2-2020-32gb-spacegray",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad 10.2 (2020) 32GB Space Gray",
     "capacity": "32GB",
     "fullPrice": 329,
     "price": 299,
     "color": "spacegray",
-    "image": "img/tablets/apple-ipad-10-2-2020/spacegray/00.webp",
+    "image": "ipad10spacegray32gb.jpg",
     "screen": "10.2' Retina",
     "ram": "3GB",
     "year": 2020
@@ -1599,12 +1713,13 @@
     "id": 185,
     "category": "tablets",
     "itemId": "apple-ipad-mini-5th-gen-256gb-silver",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Mini (5th Gen) 256GB Silver",
     "capacity": "256GB",
     "fullPrice": 549,
     "price": 499,
     "color": "silver",
-    "image": "img/tablets/apple-ipad-mini-5th-gen/silver/00.webp",
+    "image": "ipadmini5gensilver256gb.jpg",
     "screen": "7.9' Retina",
     "ram": "3GB",
     "year": 2019
@@ -1613,12 +1728,13 @@
     "id": 186,
     "category": "tablets",
     "itemId": "apple-ipad-mini-5th-gen-64gb-silver",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Mini (5th Gen) 64GB Silver",
     "capacity": "64GB",
     "fullPrice": 549,
     "price": 499,
     "color": "silver",
-    "image": "img/tablets/apple-ipad-mini-5th-gen/silver/00.webp",
+    "image": "ipadmini5genspacegray256gb.jpg",
     "screen": "7.9' Retina",
     "ram": "3GB",
     "year": 2019
@@ -1627,12 +1743,13 @@
     "id": 187,
     "category": "tablets",
     "itemId": "apple-ipad-mini-5th-gen-256gb-spacegray",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Mini (5th Gen) 256GB Space Gray",
     "capacity": "256GB",
     "fullPrice": 549,
     "price": 499,
     "color": "spacegray",
-    "image": "img/tablets/apple-ipad-mini-5th-gen/spacegray/00.webp",
+    "image": "ipadmini5genspacegray64gb.jpg",
     "screen": "7.9' Retina",
     "ram": "3GB",
     "year": 2019
@@ -1641,12 +1758,13 @@
     "id": 188,
     "category": "tablets",
     "itemId": "apple-ipad-mini-5th-gen-64gb-spacegray",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Mini (5th Gen) 64GB Space Gray",
     "capacity": "64GB",
     "fullPrice": 549,
     "price": 499,
     "color": "spacegray",
-    "image": "img/tablets/apple-ipad-mini-5th-gen/spacegray/00.webp",
+    "image": "ipadmini5gengold256gb.jpg",
     "screen": "7.9' Retina",
     "ram": "3GB",
     "year": 2019
@@ -1655,12 +1773,13 @@
     "id": 189,
     "category": "tablets",
     "itemId": "apple-ipad-mini-5th-gen-256gb-gold",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Mini (5th Gen) 256GB Gold",
     "capacity": "256GB",
     "fullPrice": 549,
     "price": 499,
     "color": "gold",
-    "image": "img/tablets/apple-ipad-mini-5th-gen/gold/00.webp",
+    "image": "ipadmini5gengold256gb.jpg",
     "screen": "7.9' Retina",
     "ram": "3GB",
     "year": 2019
@@ -1669,12 +1788,13 @@
     "id": 190,
     "category": "tablets",
     "itemId": "apple-ipad-mini-5th-gen-64gb-gold",
+    "description": "The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and have Wi-Fi and Bluetooth connectivity. The latest models support 5G cellular service.These portable devices provide a more substantial computer device than a smartphone; however, they don't come with all the features and capabilities of a laptop. They are easy to use and have Apple's highly optimized hardware and software that the company designs and updates.IPads include a central processing unit, memory, display, and back and front cameras. They run iPadOS, Apple's iOS version for the iPad; have a graphic touchscreen display; support cellular service; and have a microphone, speaker and connectors such as USB-C. Users power on the device, log in and launch the desired applications.",
     "name": "Apple iPad Mini (5th Gen) 64GB Gold",
     "capacity": "64GB",
     "fullPrice": 549,
     "price": 499,
     "color": "gold",
-    "image": "img/tablets/apple-ipad-mini-5th-gen/gold/00.webp",
+    "image": "ipadmini5gengold64gb.jpg",
     "screen": "7.9' Retina",
     "ram": "3GB",
     "year": 2019
@@ -1683,6 +1803,7 @@
     "id": 191,
     "category": "phones",
     "itemId": "apple-iphone-14-pro-128gb-gold",
+    "description": "IPhone 14, 14 plus, 14 Pro and 14 Pro Max. Apple announced its iPhone 14 lineup on Sept. 7, 2022, with the phones first available on Sept. 16. Once again, Apple has four models -- iPhone 14, 14 Plus and 14 Pro Max models. There will be no mini model in this version. All iPhone 14 models are available with 128 GB, 256 GB, 512 GB and 1 TB storage options. With the iPhone 13, only the 13 Pro Max was available with a 1 TB option.The iPhone 14 and 14 Plus are powered by Apple's A15 Bionic chip, while the 14 Pro and Max benefit from the faster A16 Bionic chip. Both chips have a six-core CPU, five-core GPU and a 16-core neural engine.With the 5.4-inch mini model now gone, the iPhone 14 and 14 Max provide a 6.1-inch display. The 14 Plus and 14 Max Pro both scale the size up to 6.7 inches. All of the iPhone 14 models benefit from Apple's Super Retina XDR display. The base models have a maximum brightness of 1,200 nits while the Pro models are brighter at 2,000 nits.",
     "name": "Apple iPhone 14 Pro 128GB Gold",
     "fullPrice": 1156,
     "price": 1068,
@@ -1691,12 +1812,13 @@
     "color": "gold",
     "ram": "6GB",
     "year": 2022,
-    "image": "img/phones/apple-iphone-14-pro/gold/00.webp"
+    "image": "iphone14progold128gb.jpg"
   },
   {
     "id": 192,
     "category": "phones",
     "itemId": "apple-iphone-14-pro-256gb-gold",
+    "description": "IPhone 14, 14 plus, 14 Pro and 14 Pro Max. Apple announced its iPhone 14 lineup on Sept. 7, 2022, with the phones first available on Sept. 16. Once again, Apple has four models -- iPhone 14, 14 Plus and 14 Pro Max models. There will be no mini model in this version. All iPhone 14 models are available with 128 GB, 256 GB, 512 GB and 1 TB storage options. With the iPhone 13, only the 13 Pro Max was available with a 1 TB option.The iPhone 14 and 14 Plus are powered by Apple's A15 Bionic chip, while the 14 Pro and Max benefit from the faster A16 Bionic chip. Both chips have a six-core CPU, five-core GPU and a 16-core neural engine.With the 5.4-inch mini model now gone, the iPhone 14 and 14 Max provide a 6.1-inch display. The 14 Plus and 14 Max Pro both scale the size up to 6.7 inches. All of the iPhone 14 models benefit from Apple's Super Retina XDR display. The base models have a maximum brightness of 1,200 nits while the Pro models are brighter at 2,000 nits.",
     "name": "Apple iPhone 14 Pro 256GB Gold",
     "fullPrice": 1300,
     "price": 1220,
@@ -1705,12 +1827,13 @@
     "color": "gold",
     "ram": "6GB",
     "year": 2022,
-    "image": "img/phones/apple-iphone-14-pro/gold/00.webp"
+    "image": "iphone14progold256gb.jpg"
   },
   {
     "id": 193,
     "category": "phones",
     "itemId": "apple-iphone-14-pro-512gb-gold",
+    "description": "IPhone 14, 14 plus, 14 Pro and 14 Pro Max. Apple announced its iPhone 14 lineup on Sept. 7, 2022, with the phones first available on Sept. 16. Once again, Apple has four models -- iPhone 14, 14 Plus and 14 Pro Max models. There will be no mini model in this version. All iPhone 14 models are available with 128 GB, 256 GB, 512 GB and 1 TB storage options. With the iPhone 13, only the 13 Pro Max was available with a 1 TB option.The iPhone 14 and 14 Plus are powered by Apple's A15 Bionic chip, while the 14 Pro and Max benefit from the faster A16 Bionic chip. Both chips have a six-core CPU, five-core GPU and a 16-core neural engine.With the 5.4-inch mini model now gone, the iPhone 14 and 14 Max provide a 6.1-inch display. The 14 Plus and 14 Max Pro both scale the size up to 6.7 inches. All of the iPhone 14 models benefit from Apple's Super Retina XDR display. The base models have a maximum brightness of 1,200 nits while the Pro models are brighter at 2,000 nits.",
     "name": "Apple iPhone 14 Pro 512GB Gold",
     "fullPrice": 1600,
     "price": 1530,
@@ -1719,12 +1842,13 @@
     "color": "gold",
     "ram": "6GB",
     "year": 2022,
-    "image": "img/phones/apple-iphone-14-pro/gold/00.webp"
+    "image": "iphone14progold512gb.jpg"
   },
   {
     "id": 194,
     "category": "phones",
     "itemId": "apple-iphone-14-pro-1tb-gold",
+    "description": "IPhone 14, 14 plus, 14 Pro and 14 Pro Max. Apple announced its iPhone 14 lineup on Sept. 7, 2022, with the phones first available on Sept. 16. Once again, Apple has four models -- iPhone 14, 14 Plus and 14 Pro Max models. There will be no mini model in this version. All iPhone 14 models are available with 128 GB, 256 GB, 512 GB and 1 TB storage options. With the iPhone 13, only the 13 Pro Max was available with a 1 TB option.The iPhone 14 and 14 Plus are powered by Apple's A15 Bionic chip, while the 14 Pro and Max benefit from the faster A16 Bionic chip. Both chips have a six-core CPU, five-core GPU and a 16-core neural engine.With the 5.4-inch mini model now gone, the iPhone 14 and 14 Max provide a 6.1-inch display. The 14 Plus and 14 Max Pro both scale the size up to 6.7 inches. All of the iPhone 14 models benefit from Apple's Super Retina XDR display. The base models have a maximum brightness of 1,200 nits while the Pro models are brighter at 2,000 nits.",
     "name": "Apple iPhone 14 Pro 1TB Gold",
     "fullPrice": 1740,
     "price": 1520,
@@ -1733,6 +1857,6 @@
     "color": "gold",
     "ram": "6GB",
     "year": 2022,
-    "image": "img/phones/apple-iphone-14-pro/gold/00.webp"
+    "image": "iphone14progold1tb.jpg"
   }
 ]
