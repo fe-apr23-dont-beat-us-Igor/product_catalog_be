@@ -14,7 +14,7 @@ export const getAllProductsController = async (req: Request, res: Response) => {
   const {
     limit = 16,
     page = 1,
-    sortby,
+    sortby = 'name',
     category = 'phones',
     order = 'ASC',
   } = req.query;
