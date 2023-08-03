@@ -6,6 +6,7 @@ interface FindAllOptions {
   limit?: number;
   offset?: number;
   sortBy?: string;
+  category?: string;
 }
 
 export class ProductService {
@@ -16,6 +17,7 @@ export class ProductService {
   
    async findAndCountAll(options: FindAllOptions = {}) {
     const {
+      category,
       limit,
       offset,
       sortBy = 'id',
@@ -25,7 +27,7 @@ export class ProductService {
 
     return await Product.findAndCountAll({
       where: {
-        category: 'phones'
+        category: category
       },
       limit,
       offset,
@@ -33,7 +35,7 @@ export class ProductService {
     });
   }
 
-  async getById(id: number) {
-    return await Product.findByPk(id);
+  async getById(id: string) {
+    return await Product.findOne({ where: { itemId: id } });
   }
 }
