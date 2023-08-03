@@ -61,6 +61,12 @@ export class Product extends Model {
 
   @AllowNull(false)
   @Column({
+    type: DataType.TEXT,
+  })
+  description: string;
+
+  @AllowNull(false)
+  @Column({
     type: DataType.STRING,
   })
   screen: string;
