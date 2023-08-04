@@ -19,13 +19,6 @@ export const getAllProductsController = async (req: Request, res: Response) => {
     order = 'ASC',
   } = req.query;
 
-  for(let q in req.query) {
-    if (!availableSortBy.includes(q)) {
-      res.sendStatus(400);
-      return;
-    }
-  }
-
   const isSortByValid = typeof sortby === 'string' && availableSortBy.includes(sortby);
   const isLimitValid = !Number.isNaN(Number(limit));
   const isPageValid = !Number.isNaN(Number(page));
