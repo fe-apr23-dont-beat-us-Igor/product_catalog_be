@@ -2,12 +2,15 @@ import express from 'express';
 import { initDB } from './initDB';
 import { sliceIntoChunks } from './helpers/sliceIntoChunks';
 const { Op } = require("sequelize");
-
 import { ProductService } from './services/product.service';
 import { getAllProductsController, getProductById } from './controllers/product.controllers';
 import { Product } from './models/Product.model';
 
 let cors = require('cors');
+
+const availableSortBy = ['name', 'fullPrice', 'year'];
+const availableCategories = ['phones', 'tablets', 'accessories']
+const availableOrder = ['ASC', 'DESC', 'asc', 'desc'];
 
 // postgres://products_db_74rl_user:O4Bzs9v7kCIbO7uiiSJhcXIpLhC8ivWs@dpg-cj3lk8tiuie55plnr410-a.frankfurt-postgres.render.com/products_db_74rl
 
@@ -38,25 +41,50 @@ const serverInit = async () => {
   });
 
   app.get('/products/:id/recommended', async (req, res) => {
-    const productService = new ProductService();
+    const productService = new ProductService() 
   
-    const { id } = req.params;
+    const {
+      limit = 16,
+      page = 1,
+      sortby = 'fullPrice',
+      category = 'phones',
+      order = 'ASC',
+    } = req.query;
+  
     
-    const product = await productService.getById(id);
-
-    const recommended = await Product.findAll(
-      {
-        where: {
-          category: product?.category,
-          ram: product?.ram,
-          [Op.not]: [
-            {itemId: product?.itemId}
-          ],
-        }
-      }
-    )
+    let id = req.params.id;
+    
+    const isSortByValid = typeof sortby === 'string' && availableSortBy.includes(sortby);
+    const isLimitValid = !Number.isNaN(Number(limit));
+    const isPageValid = !Number.isNaN(Number(page));
+    const isCategoryValid = typeof category === 'string' && availableCategories.includes(category)
+    const isOrderValid = typeof order === 'string' && availableOrder.includes(order);
+   
+    if (!isSortByValid || !isLimitValid || !isPageValid || !isCategoryValid || !isOrderValid) {
+      res.sendStatus(400);
   
-    res.send(recommended);
+      return;
+    }
+  
+  
+    let offset = 0
+    
+    if (Number(page) !== 1) {
+      offset = Number(page) * Number(limit) - Number(limit);
+    }
+
+    const product = await productService.getById(id);
+  
+    const results = await productService.findAndCountAll({
+      category,
+      limit: Number(limit),
+      offset: offset,
+      sortBy: sortby,
+      order: order.toUpperCase(),
+      product,
+    });
+  
+    res.send(results);
   });
 
   app.listen(PORT, () => {

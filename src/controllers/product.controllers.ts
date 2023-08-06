@@ -13,9 +13,22 @@ export const getAllProductsController = async (req: Request, res: Response) => {
 
   let newProducts  = false;
 
+  let recommended = false;
+
   if (req.path.includes('new')) {
-    newProducts = true
+    newProducts = true;
   }
+
+  let recProd  = null;
+  
+  if (req.path.includes('recommended')) {
+    let id = req.params.id;
+    
+    recommended = true;
+
+    recProd = await productService.getById(id);
+  }
+
 
   const {
     limit = 16,
@@ -41,7 +54,7 @@ export const getAllProductsController = async (req: Request, res: Response) => {
   let offset = 0
   
   if (Number(page) !== 1) {
-    offset = Number(page) * Number(limit);
+    offset = Number(page) * Number(limit) - Number(limit);
   }
 
   const results = await productService.findAndCountAll({
@@ -50,7 +63,7 @@ export const getAllProductsController = async (req: Request, res: Response) => {
     offset: offset,
     sortBy: sortby,
     order: order.toUpperCase(),
-    newProducts
+    newProducts,
   });
 
   res.send(results);
