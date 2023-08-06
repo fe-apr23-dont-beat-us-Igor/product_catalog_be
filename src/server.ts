@@ -27,19 +27,7 @@ const serverInit = async () => {
 
   app.get('/products', getAllProductsController);
 
-  app.get('/products/new', async (req, res) => {
-    let prods = await Product.findAll({
-      where: {
-        [Op.or]: [
-          { year: 2023 },
-          { year: 2022 },
-          { year: 2021 },
-        ]
-      }
-    });
-
-    res.send(prods);
-  });
+  app.get('/products/new', getAllProductsController);
   
   app.get('/products/:id', getProductById);
 

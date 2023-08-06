@@ -8,6 +8,7 @@ interface FindAllOptions {
   sortBy?: string;
   category?: string;
   order?: string;
+  newProducts?: boolean;
 }
 
 export class ProductService {
@@ -23,10 +24,23 @@ export class ProductService {
       offset,
       sortBy = 'name',
       order = 'ASC',
+      newProducts = false,
     } = options;
 
     console.log(sortBy)
 
+    if (newProducts) {
+      return await Product.findAndCountAll({
+        where: {
+          category: category,
+          year: [2022 , 2023, 2021]
+        },
+        limit,
+        offset,
+        order: [[sortBy, order]],
+      });
+    }
+    
     return await Product.findAndCountAll({
       where: {
         category: category

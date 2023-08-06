@@ -11,6 +11,12 @@ const availableOrder = ['ASC', 'DESC', 'asc', 'desc'];
 export const getAllProductsController = async (req: Request, res: Response) => {
   const productService = new ProductService()
 
+  let newProducts  = false;
+
+  if (req.path.includes('new')) {
+    newProducts = true
+  }
+
   const {
     limit = 16,
     page = 1,
@@ -31,6 +37,7 @@ export const getAllProductsController = async (req: Request, res: Response) => {
     return;
   }
 
+
   let offset = 0
   
   if (Number(page) !== 1) {
@@ -43,6 +50,7 @@ export const getAllProductsController = async (req: Request, res: Response) => {
     offset: offset,
     sortBy: sortby,
     order: order.toUpperCase(),
+    newProducts
   });
 
   res.send(results);
