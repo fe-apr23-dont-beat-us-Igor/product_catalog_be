@@ -70,7 +70,7 @@ const serverInit = async () => {
     let offset = 0
     
     if (Number(page) !== 1) {
-      offset = Number(page) * Number(limit);
+      offset = Number(page) * Number(limit) - Number(limit);
     }
 
     const product = await productService.getById(id);

@@ -54,7 +54,7 @@ export const getAllProductsController = async (req: Request, res: Response) => {
   let offset = 0
   
   if (Number(page) !== 1) {
-    offset = Number(page) * Number(limit);
+    offset = Number(page) * Number(limit) - Number(limit);
   }
 
   const results = await productService.findAndCountAll({
