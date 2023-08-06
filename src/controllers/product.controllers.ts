@@ -4,7 +4,7 @@ import { Image } from "../models/Image.model";
 import { ProductService } from "../services/product.service";
 import { Response, Request } from 'express';
 
-const availableSortBy = ['name', 'fullprice', 'year'];
+const availableSortBy = ['name', 'fullPrice', 'year'];
 const availableCategories = ['phones', 'tablets', 'accessories']
 const availableOrder = ['ASC', 'DESC', 'asc', 'desc'];
 
@@ -14,7 +14,7 @@ export const getAllProductsController = async (req: Request, res: Response) => {
   const {
     limit = 16,
     page = 1,
-    sortby = 'name',
+    sortby = 'fullPrice',
     category = 'phones',
     order = 'ASC',
   } = req.query;
