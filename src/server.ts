@@ -40,6 +40,26 @@ const serverInit = async () => {
     res.sendFile(link, { root: './src/images' });
   });
 
+  app.post('/cart-items', async (req, res) => {
+    let { ids } = req.body;
+
+    let result = [];
+    
+    
+    for (let id of ids) {
+      let prod = await Product.findOne({
+        where: {
+          itemId: id
+        },
+        attributes: ['name' , 'image_catalog', 'capacity', 'ram', 'screen', 'fullPrice', 'price', 'category', 'itemId']
+      })
+    
+      result.push(prod);
+    }
+
+    res.send(result);
+  });
+
   app.get('/products/:id/recommended', async (req, res) => {
     const productService = new ProductService() 
   
