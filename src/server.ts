@@ -68,6 +68,18 @@ const serverInit = async () => {
     res.send(result);
   });
 
+  app.get('/discount', async (req, res) => {
+    let discounted = await Product.findAll({
+      where: {
+        price: {
+          [Op.ne]: null
+        }
+      }
+    });
+
+    res.send(discounted);
+  });
+  
   app.post('/cart-items', async (req, res) => {
     let { ids } = req.body;
 
