@@ -34,6 +34,7 @@ export class ProductService {
 
     if (product) {
       return await Product.findAndCountAll({
+        attributes: ['name' , 'image_catalog', 'capacity', 'ram', 'screen', 'fullPrice', 'price', 'category', 'itemId'],
         where: {
           category: product?.category,
           ram: product?.ram,
@@ -49,6 +50,7 @@ export class ProductService {
 
     if (newProducts) {
       return await Product.findAndCountAll({
+        attributes: ['name' , 'image_catalog', 'capacity', 'ram', 'screen', 'fullPrice', 'price', 'category', 'itemId'],
         where: {
           category: category,
           year: [2022 , 2023, 2021]
@@ -60,6 +62,7 @@ export class ProductService {
     }
     
     return await Product.findAndCountAll({
+      attributes: ['name' , 'image_catalog', 'capacity', 'ram', 'screen', 'fullPrice', 'price', 'category', 'itemId'],
       where: {
         category: category
       },
