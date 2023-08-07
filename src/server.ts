@@ -40,6 +40,34 @@ const serverInit = async () => {
     res.sendFile(link, { root: './src/images' });
   });
 
+  app.get('/info', async (req, res) => {
+    const phones = await Product.count({
+      where: {
+        category: "phones"
+      }
+    });
+
+    const tablets = await Product.count({
+      where: {
+        category: "tablets"
+      }
+    });
+
+    const accessories = await Product.count({
+      where: {
+        category: "accessories"
+      }
+    });
+
+    let result = {
+      tablets,
+      phones,
+      accessories,
+    }
+
+    res.send(result);
+  });
+
   app.post('/cart-items', async (req, res) => {
     let { ids } = req.body;
 
