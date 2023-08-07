@@ -53,7 +53,7 @@ export class Product extends Model {
   })
   color: string;
 
-  @AllowNull(false)
+  @AllowNull(true)
   @Column({
     type: DataType.INTEGER,
   })
