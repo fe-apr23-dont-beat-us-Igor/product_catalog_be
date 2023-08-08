@@ -69,13 +69,48 @@ const serverInit = async () => {
   });
 
   app.get('/discount', async (req, res) => {
+    const {
+      limit = 16,
+      page = 1,
+      sortby = 'fullPrice',
+      category = 'phones',
+      desc = 'false'
+    } = req.query;
+
+    const isSortByValid = typeof sortby === 'string' && availableSortBy.includes(sortby);
+    const isLimitValid = !Number.isNaN(Number(limit));
+    const isPageValid = !Number.isNaN(Number(page));
+    const isCategoryValid = typeof category === 'string' && availableCategories.includes(category)
+
+    if (!isSortByValid || !isLimitValid || !isPageValid || !isCategoryValid) {
+      res.sendStatus(400);
+  
+      return;
+    }
+  
+    
+    let offset = 0
+    
+    if (Number(page) !== 1) {
+      offset = Number(page) * Number(limit) - Number(limit);
+    }
+
+    let order = 'ASC';
+
+    if (desc === 'true') {
+      order = 'DESC';
+    }
+    
     let discounted = await Product.findAndCountAll({
       attributes: ['name' , 'image_catalog', 'capacity', 'ram', 'screen', 'fullPrice', 'price', 'category', 'itemId'],
       where: {
         price: {
           [Op.ne]: null
         }
-      }
+      },
+      limit: Number(limit),
+      offset: offset,
+      order: [[sortby, order]],
     });
 
     res.send(discounted);
