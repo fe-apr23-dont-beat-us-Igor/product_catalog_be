@@ -11,6 +11,7 @@ interface FindAllOptions {
   order?: string;
   newProducts?: boolean;
   product?: any;
+  discount?: boolean;
 }
 
 export class ProductService {
