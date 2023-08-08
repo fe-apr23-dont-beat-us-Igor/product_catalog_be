@@ -69,7 +69,8 @@ const serverInit = async () => {
   });
 
   app.get('/discount', async (req, res) => {
-    let discounted = await Product.findAll({
+    let discounted = await Product.findAndCountAll({
+      attributes: ['name' , 'image_catalog', 'capacity', 'ram', 'screen', 'fullPrice', 'price', 'category', 'itemId'],
       where: {
         price: {
           [Op.ne]: null
@@ -108,7 +109,7 @@ const serverInit = async () => {
       page = 1,
       sortby = 'fullPrice',
       category = 'phones',
-      order = 'ASC',
+      desc = 'false'
     } = req.query;
   
     
@@ -118,9 +119,8 @@ const serverInit = async () => {
     const isLimitValid = !Number.isNaN(Number(limit));
     const isPageValid = !Number.isNaN(Number(page));
     const isCategoryValid = typeof category === 'string' && availableCategories.includes(category)
-    const isOrderValid = typeof order === 'string' && availableOrder.includes(order);
    
-    if (!isSortByValid || !isLimitValid || !isPageValid || !isCategoryValid || !isOrderValid) {
+    if (!isSortByValid || !isLimitValid || !isPageValid || !isCategoryValid) {
       res.sendStatus(400);
   
       return;
@@ -133,6 +133,12 @@ const serverInit = async () => {
       offset = Number(page) * Number(limit) - Number(limit);
     }
 
+    let order = 'ASC';
+
+    if (desc === 'true') {
+      order = 'DESC';
+    }
+    
     const product = await productService.getById(id);
   
     const results = await productService.findAndCountAll({

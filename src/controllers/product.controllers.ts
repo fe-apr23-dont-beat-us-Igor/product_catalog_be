@@ -35,16 +35,15 @@ export const getAllProductsController = async (req: Request, res: Response) => {
     page = 1,
     sortby = 'fullPrice',
     category = 'phones',
-    order = 'ASC',
+    desc = 'false',
   } = req.query;
 
   const isSortByValid = typeof sortby === 'string' && availableSortBy.includes(sortby);
   const isLimitValid = !Number.isNaN(Number(limit));
   const isPageValid = !Number.isNaN(Number(page));
   const isCategoryValid = typeof category === 'string' && availableCategories.includes(category)
-  const isOrderValid = typeof order === 'string' && availableOrder.includes(order);
  
-  if (!isSortByValid || !isLimitValid || !isPageValid || !isCategoryValid || !isOrderValid) {
+  if (!isSortByValid || !isLimitValid || !isPageValid || !isCategoryValid) {
     res.sendStatus(400);
 
     return;
@@ -55,6 +54,12 @@ export const getAllProductsController = async (req: Request, res: Response) => {
   
   if (Number(page) !== 1) {
     offset = Number(page) * Number(limit) - Number(limit);
+  }
+
+  let order = 'ASC';
+
+  if (desc === 'true') {
+    order = 'DESC';
   }
 
   const results = await productService.findAndCountAll({
