@@ -26,7 +26,11 @@ module.exports = {
       available_colors: {
         type: Sequelize.STRING,
         allowNull: false,
-      },      
+      },
+      available_capacity: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },       
       capacity: {
         type: Sequelize.STRING,
         allowNull: false,
