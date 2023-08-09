@@ -93,6 +93,12 @@ export class Product extends Model {
   @Column({
     type: DataType.STRING,
   })
+  available_capacity: string;
+
+  @AllowNull(false)
+  @Column({
+    type: DataType.STRING,
+  })
   image_catalog: string;
 
   @AllowNull(false)

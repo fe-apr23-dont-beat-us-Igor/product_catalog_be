@@ -1,3 +1,5 @@
+'use strict';
+
 let products = require('../src/products.json');
 
 products = products.map((product, index) => {
@@ -7,9 +9,10 @@ products = products.map((product, index) => {
     name,
     capacity,
     fullPrice,
+    available_colors,
+    available_capacity,
     color,
     price,
-    available_colors,
     description,
     screen,
     ram,
@@ -27,9 +30,10 @@ products = products.map((product, index) => {
     name,
     capacity,
     fullPrice,
+    available_colors,
+    available_capacity,
     description,
     color,
-    available_colors,
     price,
     screen,
     ram,
