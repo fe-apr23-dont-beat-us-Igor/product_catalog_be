@@ -5,6 +5,8 @@ const { Op } = require("sequelize");
 import { ProductService } from './services/product.service';
 import { getAllProductsController, getProductById } from './controllers/product.controllers';
 import { Product } from './models/Product.model';
+const controller = require('./controllers/authController');
+const { check } = require('express-validator');
 
 let cors = require('cors');
 
@@ -26,6 +28,15 @@ const serverInit = async () => {
   const sequelize = initDB();
 
   const res = await sequelize.authenticate();
+
+  app.post('/registration', [
+    check('username', 'Username cannot be empty').notEmpty(),
+    check('password', 'Password has to be more than 4 and less than 10 symbols').isLength({min: 4, max: 10})
+  ] ,controller.registration)
+
+  app.post('/login', controller.login)
+
+  app.get('/users', controller.getUsers)
 
 
   app.get('/products', getAllProductsController);
