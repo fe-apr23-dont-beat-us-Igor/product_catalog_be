@@ -7,22 +7,6 @@ const { secret } = require('./auth.config.js');
 import { User } from "../models/User.model";
 import { Data } from '../models/Data.model';
 
-const verifyUserToken = (req: Request, res: Response, next: NextFunction) => {
-  if (!req.headers.authorization) {
-    return res.status(401).send("Unauthorized request");
-  }
-  const token = req.headers["authorization"].split(" ")[1];
-  if (!token) {
-    return res.status(401).send("Access denied. No token provided.");
-  }
-  try {
-    const decoded = jwt.verify(token, secret);
-    next();
-  } catch (err) {
-    res.status(400).send("Invalid token.");
-  }
-};
-
 class authController {
   async registration(req: Request, res: Response) {
     try {
