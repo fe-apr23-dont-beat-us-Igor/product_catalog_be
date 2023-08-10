@@ -21,7 +21,12 @@ const serverInit = async () => {
 
   const app = express();
 
-  app.use(cors());
+  app.use(cors({
+    origin: '*',
+    methods: ['GET','POST','DELETE','UPDATE','PUT','PATCH'],
+    credentials: true,
+    exposedHeaders: ['Origin', 'X-Requested-With', 'ontent-Type', 'Accept', 'Authorization'],
+}));
 
   app.use(express.json())
 
@@ -31,8 +36,8 @@ const serverInit = async () => {
 
   app.post('/registration', [
     check('username', 'Username cannot be empty').notEmpty(),
-    check('password', 'Password has to be more than 4 and less than 10 symbols').isLength({min: 4, max: 10})
-  ] ,controller.registration)
+    check('password', 'Password has to be more than 4 and less than 10 symbols').isLength({ min: 4, max: 10 })
+  ], controller.registration)
 
   app.post('/login', controller.login)
 
@@ -42,7 +47,7 @@ const serverInit = async () => {
   app.get('/products', getAllProductsController);
 
   app.get('/products/new', getAllProductsController);
-  
+
   app.get('/products/:id', getProductById);
 
   app.get('/images/:link', function (req, res) {
@@ -95,13 +100,13 @@ const serverInit = async () => {
 
     if (!isSortByValid || !isLimitValid || !isPageValid || !isCategoryValid) {
       res.sendStatus(400);
-  
+
       return;
     }
-  
-    
+
+
     let offset = 0
-    
+
     if (Number(page) !== 1) {
       offset = Number(page) * Number(limit) - Number(limit);
     }
@@ -111,9 +116,9 @@ const serverInit = async () => {
     if (desc === 'true') {
       order = 'DESC';
     }
-    
+
     let discounted = await Product.findAndCountAll({
-      attributes: ['name' , 'image_catalog', 'capacity', 'ram', 'screen', 'fullPrice', 'price', 'category', 'itemId'],
+      attributes: ['name', 'image_catalog', 'capacity', 'ram', 'screen', 'fullPrice', 'price', 'category', 'itemId'],
       where: {
         price: {
           [Op.ne]: null
@@ -126,21 +131,21 @@ const serverInit = async () => {
 
     res.send(discounted);
   });
-  
+
   app.post('/cart-items', async (req, res) => {
     let { ids } = req.body;
 
     let result = [];
-    
-    
+
+
     for (let id of ids) {
       let prod = await Product.findOne({
         where: {
           itemId: id
         },
-        attributes: ['name' , 'image_catalog', 'capacity', 'ram', 'screen', 'fullPrice', 'price', 'category', 'itemId']
+        attributes: ['name', 'image_catalog', 'capacity', 'ram', 'screen', 'fullPrice', 'price', 'category', 'itemId']
       })
-    
+
       result.push(prod);
     }
 
@@ -148,8 +153,8 @@ const serverInit = async () => {
   });
 
   app.get('/products/:id/recommended', async (req, res) => {
-    const productService = new ProductService() 
-  
+    const productService = new ProductService()
+
     const {
       limit = 16,
       page = 1,
@@ -157,24 +162,24 @@ const serverInit = async () => {
       category = 'phones',
       desc = 'false'
     } = req.query;
-  
-    
+
+
     let id = req.params.id;
-    
+
     const isSortByValid = typeof sortby === 'string' && availableSortBy.includes(sortby);
     const isLimitValid = !Number.isNaN(Number(limit));
     const isPageValid = !Number.isNaN(Number(page));
     const isCategoryValid = typeof category === 'string' && availableCategories.includes(category)
-   
+
     if (!isSortByValid || !isLimitValid || !isPageValid || !isCategoryValid) {
       res.sendStatus(400);
-  
+
       return;
     }
-  
-  
+
+
     let offset = 0
-    
+
     if (Number(page) !== 1) {
       offset = Number(page) * Number(limit) - Number(limit);
     }
@@ -184,9 +189,9 @@ const serverInit = async () => {
     if (desc === 'true') {
       order = 'DESC';
     }
-    
+
     const product = await productService.getById(id);
-  
+
     const results = await productService.findAndCountAll({
       category,
       limit: Number(limit),
@@ -195,7 +200,7 @@ const serverInit = async () => {
       order: order.toUpperCase(),
       product,
     });
-  
+
     res.send(results);
   });
 

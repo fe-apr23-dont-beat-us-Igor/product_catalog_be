@@ -1,4 +1,4 @@
-import { Response, Request } from 'express';
+import { Response, Request, NextFunction } from 'express';
 const bcrypt = require('bcrypt');
 const { validationResult } = require('express-validator');
 const jwt = require('jsonwebtoken');
@@ -6,13 +6,21 @@ const { secret } = require('./auth.config.js');
 
 import { User } from "../models/User.model";
 
-const generateAccessToken = (username: any) => {
-  const payload = {
-    username,
+const verifyUserToken = (req: Request, res: Response, next: NextFunction) => {
+  if (!req.headers.authorization) {
+    return res.status(401).send("Unauthorized request");
   }
-
-  return jwt.sign(payload, secret, {expiresIn: "24h"})
-}
+  const token = req.headers["authorization"].split(" ")[1];
+  if (!token) {
+    return res.status(401).send("Access denied. No token provided.");
+  }
+  try {
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    next();
+  } catch (err) {
+    res.status(400).send("Invalid token.");
+  }
+};
 
 class authController {
   async registration(req: Request, res: Response) {
