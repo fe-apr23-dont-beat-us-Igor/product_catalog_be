@@ -1,4 +1,4 @@
-import express from 'express';
+import express, { NextFunction } from 'express';
 import { initDB } from './initDB';
 import { sliceIntoChunks } from './helpers/sliceIntoChunks';
 const { Op } = require("sequelize");
@@ -9,6 +9,11 @@ import { User } from './models/User.model';
 import { Data } from './models/Data.model';
 const controller = require('./controllers/authController');
 const { check } = require('express-validator');
+import { Response, Request } from 'express';
+const bcrypt = require('bcrypt');
+const { validationResult } = require('express-validator');
+const jwt = require('jsonwebtoken');
+const { secret } = require('./auth.config.js');
 
 let cors = require('cors');
 
@@ -17,6 +22,22 @@ const availableCategories = ['phones', 'tablets', 'accessories']
 const availableOrder = ['ASC', 'DESC', 'asc', 'desc'];
 
 // postgres://products_db_74rl_user:O4Bzs9v7kCIbO7uiiSJhcXIpLhC8ivWs@dpg-cj3lk8tiuie55plnr410-a.frankfurt-postgres.render.com/products_db_74rl
+
+const verifyUserToken = (req: Request, res: Response, next: NextFunction) => {
+  if (!req.headers.authorization) {
+    return res.status(401).send("Unauthorized request");
+  }
+  const token = req.headers["authorization"].split(" ")[1];
+  if (!token) {
+    return res.status(401).send("Access denied. No token provided.");
+  }
+  try {
+    const decoded = jwt.verify(token, secret);
+    next();
+  } catch (err) {
+    res.status(400).send("Invalid token.");
+  }
+};
 
 const serverInit = async () => {
   const PORT = 5000;
@@ -41,7 +62,7 @@ const serverInit = async () => {
     check('password', 'Password has to be more than 4 and less than 10 symbols').isLength({ min: 4, max: 10 })
   ], controller.registration)
 
-  app.get('/data/:username', async (req, res) => {
+  app.get('/data/:username', verifyUserToken,  async (req, res) => {
     let username = req.params.username;
 
     let user = await User.findOne({
