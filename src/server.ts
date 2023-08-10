@@ -13,7 +13,7 @@ import { Response, Request } from 'express';
 const bcrypt = require('bcrypt');
 const { validationResult } = require('express-validator');
 const jwt = require('jsonwebtoken');
-const { secret } = require('./auth.config.js');
+const { secret } = require('./controllers/auth.config.js');
 
 let cors = require('cors');
 
