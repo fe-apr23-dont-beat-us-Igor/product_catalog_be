@@ -65,6 +65,35 @@ const serverInit = async () => {
     res.send(data);
   });
 
+  app.patch('/data/:username', async (req, res) => {
+    let username = req.params.username;
+
+    let payload = req.body;
+
+    let fav = payload.favourites.join(' ');
+    let car = payload.cart.join(' ');
+    
+    let user = await User.findOne({
+      where: {
+        username: username
+      }
+    });
+    
+    if (!user) {
+      res.statusCode = 400;
+      res.send('error...');
+      return;
+    }
+    
+    let data = Data.update({ favourites: fav, cart: car }, {
+      where: {
+        id: user.data_id
+      }
+    })
+
+    res.send(data);
+  });
+
   app.post('/login', controller.login)
 
   app.get('/users', controller.getUsers)
