@@ -32,7 +32,7 @@ const verifyUserToken = (req: Request, res: Response, next: NextFunction) => {
     return res.status(401).send("Access denied. No token provided.");
   }
   try {
-    const decoded = jwt.verify(token, secret);
+    jwt.verify(token, secret);
     next();
   } catch (err) {
     res.status(400).send("Invalid token.");
@@ -90,9 +90,6 @@ const serverInit = async () => {
     let username = req.params.username;
 
     let payload = req.body;
-
-    let fav = payload.favourites.join(' ');
-    let car = payload.cart.join(' ');
     
     let user = await User.findOne({
       where: {
@@ -105,14 +102,26 @@ const serverInit = async () => {
       res.send('error...');
       return;
     }
-    
-    let data = Data.update({ favourites: fav, cart: car }, {
-      where: {
-        id: user.data_id
-      }
-    })
 
-    res.send(data);
+    if (payload.favourites) {
+      let fav = payload.favourites.join(' ');
+      let data = Data.update({ favourites: fav }, {
+        where: {
+          id: user.data_id
+        }
+      })
+    }
+
+    if (payload.cart) {
+      let cart = payload.favourites.join(' ');
+      let data = Data.update({ cart: cart }, {
+        where: {
+          id: user.data_id
+        }
+      })
+    }
+  
+    res.send('Data updated succesfully!');
   });
 
   app.post('/login', controller.login)
