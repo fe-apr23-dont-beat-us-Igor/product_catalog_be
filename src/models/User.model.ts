@@ -9,6 +9,7 @@ import {
   BelongsTo,
 } from 'sequelize-typescript';
 import { Image } from './Image.model';
+import { Data } from './Data.model';
 
 
 @Table({
@@ -29,4 +30,15 @@ export class User extends Model {
     type: DataType.STRING,
   })
   password: string;
+
+  @AllowNull(false)
+  @ForeignKey(() => Data)
+  @Column({
+    type: DataType.INTEGER,
+    field: 'data_id',
+  })
+  data_id: number;
+
+  @BelongsTo(() => Data)
+  data: Data | null;
 }
