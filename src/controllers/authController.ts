@@ -5,6 +5,7 @@ const jwt = require('jsonwebtoken');
 const { secret } = require('./auth.config.js');
 
 import { User } from "../models/User.model";
+import { Data } from '../models/Data.model';
 
 const verifyUserToken = (req: Request, res: Response, next: NextFunction) => {
   if (!req.headers.authorization) {
@@ -15,7 +16,7 @@ const verifyUserToken = (req: Request, res: Response, next: NextFunction) => {
     return res.status(401).send("Access denied. No token provided.");
   }
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const decoded = jwt.verify(token, secret);
     next();
   } catch (err) {
     res.status(400).send("Invalid token.");
@@ -48,7 +49,9 @@ class authController {
       }
 
       const hashPassword = bcrypt.hashSync(password, 7);
-      const user = await User.create({ username: username, password: hashPassword });
+      const dataCount = await Data.count();
+      const data = await Data.create({favourites: null, cart: null});
+      const user = await User.create({ username: username, password: hashPassword, data_id: dataCount + 1});
       res.send('User has been succesfully registered!');
       return;
     } catch (error) {
@@ -82,7 +85,7 @@ class authController {
         return;
       }
     
-      const token = jwt.sign({id: user.id}, secret, {expiresIn: '24h'});
+      const token = jwt.sign({username: user.username}, secret, {expiresIn: '24h'});
       res.send({
         token
       });

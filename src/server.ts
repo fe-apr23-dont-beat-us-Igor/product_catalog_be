@@ -5,6 +5,8 @@ const { Op } = require("sequelize");
 import { ProductService } from './services/product.service';
 import { getAllProductsController, getProductById } from './controllers/product.controllers';
 import { Product } from './models/Product.model';
+import { User } from './models/User.model';
+import { Data } from './models/Data.model';
 const controller = require('./controllers/authController');
 const { check } = require('express-validator');
 
@@ -26,7 +28,7 @@ const serverInit = async () => {
     methods: ['GET','POST','DELETE','UPDATE','PUT','PATCH'],
     credentials: true,
     exposedHeaders: ['Origin', 'X-Requested-With', 'ontent-Type', 'Accept', 'Authorization'],
-}));
+  }));
 
   app.use(express.json())
 
@@ -39,6 +41,30 @@ const serverInit = async () => {
     check('password', 'Password has to be more than 4 and less than 10 symbols').isLength({ min: 4, max: 10 })
   ], controller.registration)
 
+  app.get('/data/:username', async (req, res) => {
+    let username = req.params.username;
+
+    let user = await User.findOne({
+      where: {
+        username: username
+      }
+    });
+    
+    if (!user) {
+      res.statusCode = 400;
+      res.send('error...');
+      return;
+    }
+    
+    let data = await Data.findOne({
+      where: {
+        id: user?.data_id
+      }
+    });
+
+    res.send(data);
+  });
+
   app.post('/login', controller.login)
 
   app.get('/users', controller.getUsers)
@@ -49,12 +75,6 @@ const serverInit = async () => {
   app.get('/products/new', getAllProductsController);
 
   app.get('/products/:id', getProductById);
-
-  app.get('/images/:link', function (req, res) {
-    let link = req.params.link;
-
-    res.sendFile(link, { root: './src/images' });
-  });
 
   app.get('/info', async (req, res) => {
     const phones = await Product.count({
@@ -84,6 +104,12 @@ const serverInit = async () => {
     res.send(result);
   });
 
+  app.get('/images/:link', function (req, res) {
+    let link = req.params.link;
+
+    res.sendFile(link, { root: './src/images' });
+  });
+  
   app.get('/discount', async (req, res) => {
     const {
       limit = 16,
