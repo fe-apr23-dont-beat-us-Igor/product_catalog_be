@@ -86,7 +86,7 @@ const serverInit = async () => {
     res.send(data);
   });
 
-  app.patch('/data/:username', async (req, res) => {
+  app.patch('/data/:username', verifyUserToken, async (req, res) => {
     let username = req.params.username;
 
     let payload = req.body;
