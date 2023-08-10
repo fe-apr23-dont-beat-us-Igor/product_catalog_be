@@ -75,7 +75,9 @@ class authController {
       }
     
       const token = jwt.sign({id: user.id}, secret, {expiresIn: '24h'});
-      res.send(token);
+      res.send({
+        token
+      });
     } catch (error) {
       console.log(error);
       res.statusCode = 400;
